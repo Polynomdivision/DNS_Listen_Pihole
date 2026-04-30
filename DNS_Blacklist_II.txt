@@ -1,12 +1,12 @@
 ! ###### Windows Updates sperren ########
 
-# ||windowsupdate.com^
-# ||update.microsoft.com^
-# ||windowsupdate.com.delivery.microsoft.com^
-# ||windowsupdate.microsoft.com^
-# ||wustat.windows.com^
-# ||forefrontdl.microsoft.com^
-# ||ntservicepack.microsoft.com^
+||windowsupdate.com^
+||update.microsoft.com^
+||windowsupdate.com.delivery.microsoft.com^
+||windowsupdate.microsoft.com^
+||wustat.windows.com^
+||forefrontdl.microsoft.com^
+||ntservicepack.microsoft.com^
 
 ! #######################################
 
@@ -43,6 +43,27 @@ skype.com
 
 miwifi.com
 ||miwifi.com^
+
+www.amorehaus.de
+||amorehaus.de^
+www.amorehaus.com
+||amorehaus.com^
+www.erospark.de
+||erospark.de^
+www.geilhaus.de
+||geilhaus.de^
+www.muellergirls.de
+||muellergirls.de^
+www.penthouse55.de
+||penthouse55.de^
+www.haus-jaguar.de
+||haus-jaguar.de^
+www.hausgabriela-rt.de
+||hausgabriela-rt.de^
+www.liebes-stern.de
+||liebes-stern.de^
+
+
 
 ! ============================================================
 ! Blockliste: Russische Domains (RU, SU, RF, IDN, SLDs)
@@ -100,6 +121,7 @@ miwifi.com
 ! ============================================================
 ! Ende der Liste
 ! ============================================================
+
 
 
 ||1e100.net^
