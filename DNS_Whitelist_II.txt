@@ -1,13 +1,26 @@
-# CNN Player
+# Liste allgemein
 
+
+www.island-masters.de
+@@||island-masters.de^
 @@||monoprivacy.io^
 @@||cdn.cookielaw.org^	
 @@||registry.api.cnn.io^	
 @@||api.msn.com^	
 @@||turnip.cdn.turner.com^	
 @@||live-media-aka.warnermediacdn.com^
-
-reddit.com
+www.instagram.de
+www.instagram.com
+@@||instagram.com^
+@@||instagram.de^
+www.facebook.com
+www.facebook.de
+@@||facebook.de^
+@@||facebook.com^
+@@||redditmedia.com
+@@||reddit.com
+@@||redd.it
+www.redd.it
 www.reddit.com
 @@||cdom.de^
 @@||gamer-fun.de^
@@ -71,8 +84,6 @@ cdn.cookielaw.org
 salesforce.com
 force.com
 chtbl.com
-edge-enterprise.activity.windows.com
-edge.activity.windows.com
 i-cdn.embed.ly
 s.deepl.com
 lynxbroker.de
@@ -168,16 +179,11 @@ bitmovin.com
 mql5.com
 transfer.sh
 arte.tv
-sdk.fra-01.braze.eu
 hidemyass.com
 ipinfo.io
 px-conf.perimeterx.net
 pusher.com
 spdns.eu
-schalke.mooo.com
-schalke-weinheim.mooo.com
-schalke-harburg.mooo.com
-schalke-dranske.mooo.com
 files.catbox.moe
 oldversion.com
 b.bloomberglp.com
@@ -388,8 +394,6 @@ matomo.be-on.de
 analytics.rbleipzig.com
 me-client.eservice.emarsys.net
 mobile-events.eservice.emarsys.net
-/video-dfw(\d+)-(\d+)\.xx\.fbcdn\.net/
-activity.windows.com
 assets.adobedtm.com
 analytics.bloombergvault.com
 @@||dub.sh^
@@ -413,7 +417,6 @@ eventapi.sooplive.co.kr
 st.sooplive.co.kr
 static.wixstatic.com
 raw.githubusercontent.com
-fritz.com
 us-api.mcsvc.samsung.com
 saa.cbsi.com
 @@||telekom-dienste.de^
@@ -441,7 +444,6 @@ productionassets.rollercoin.com
 @@||rce-event.de^
 chat.com
 chatgpt.com
-crash-stats.mozilla.org
 gtv.tv-project.de
 remote-data.asnapieu.com
 device-api.asnapieu.com
