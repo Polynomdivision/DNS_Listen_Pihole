@@ -7,7 +7,8 @@
 @@||turnip.cdn.turner.com^	
 @@||live-media-aka.warnermediacdn.com^
 
-
+reddit.com
+www.reddit.com
 @@||cdom.de^
 @@||gamer-fun.de^
 @@||giebel.it^
