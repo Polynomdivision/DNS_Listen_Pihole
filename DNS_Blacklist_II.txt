@@ -401,7 +401,6 @@ dap.cloudflareresearch.com
 helper1.dap.cloudflareresearch.com
 divviup.org
 api.divviup.org
-/dap-*.api.divviup.org/
 dap.services.mozilla.com
 activation.generalmobile.com
 ads-proxy-aka.prod.bo.canal.canalplustech.pro

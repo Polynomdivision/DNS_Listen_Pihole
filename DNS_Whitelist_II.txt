@@ -17,9 +17,9 @@ www.facebook.com
 www.facebook.de
 @@||facebook.de^
 @@||facebook.com^
-@@||redditmedia.com
-@@||reddit.com
-@@||redd.it
+@@||redditmedia.com^
+@@||reddit.com^
+@@||redd.it^
 www.redd.it
 www.reddit.com
 @@||cdom.de^
