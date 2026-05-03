@@ -1,16 +1,5 @@
 # 2.5.2026 22.30 Uhr
 
-! ###### Windows Updates sperren ########
-
-||windowsupdate.com^
-||update.microsoft.com^
-||windowsupdate.com.delivery.microsoft.com^
-||windowsupdate.microsoft.com^
-||wustat.windows.com^
-||forefrontdl.microsoft.com^
-||ntservicepack.microsoft.com^
-
-! #######################################
 
 filedownload.lenovo.com
 ||filedownload.lenovo.com^
@@ -42,29 +31,6 @@ example.net
 ||example.net^
 skype.com
 ||skype.com^
-
-miwifi.com
-||miwifi.com^
-
-www.amorehaus.de
-||amorehaus.de^
-www.amorehaus.com
-||amorehaus.com^
-www.erospark.de
-||erospark.de^
-www.geilhaus.de
-||geilhaus.de^
-www.muellergirls.de
-||muellergirls.de^
-www.penthouse55.de
-||penthouse55.de^
-www.haus-jaguar.de
-||haus-jaguar.de^
-www.hausgabriela-rt.de
-||hausgabriela-rt.de^
-www.liebes-stern.de
-||liebes-stern.de^
-
 
 
 ! ============================================================
