@@ -1,4 +1,4 @@
-# 2.5.2026 22.30 Uhr
+# 5.5.2026 22.30 Uhr
 
 
 ! ###### Windows Updates sperren ########
@@ -13,39 +13,125 @@
 
 ! #######################################
 
-filedownload.lenovo.com
-||filedownload.lenovo.com^
-lenovomm.com
-||lenovomm.com^
-lenovomm.cn
-||lenovomm.cn^
-lenovo.com.cn
-||lenovo.com.cn^
+# filedownload.lenovo.com
+# ||filedownload.lenovo.com^
+# lenovomm.com
+# ||lenovomm.com^
+# lenovomm.cn
+# ||lenovomm.cn^
+# lenovo.com.cn
+# ||lenovo.com.cn^
 
-wpad.fritz.box
+! --- Allgemeine Tracking-Netzwerke ---
+||doubleclick.net^
+||googlesyndication.com^
+||googleadservices.com^
+||adnxs.com^
+||adsafeprotected.com^
+||scorecardresearch.com^
+||quantserve.com^
+||criteo.com^
+||criteo.net^
+||taboola.com^
+||outbrain.com^
+||mathtag.com^
+||moatads.com^
+||rubiconproject.com^
+||adform.net^
+||adroll.com^
+||adservice.google.com^
+||adservice.google.de^
+
+! --- Social Tracking ---
+||facebook.com/tr^
+||facebook.net^
+||connect.facebook.net^
+||graph.facebook.com^
+||twitter.com/i/adsct^
+||analytics.tiktok.com^
+||log.pinterest.com^
+
+! --- Amazon / FireTV Tracking ---
+||fls-eu.amazon.com^
+||amazon-adsystem.com^
+||aaxads.com^
+||aax-eu.amazon.com^
+||unagi.amazon.com^$third-party
+
+! --- Apple Tracking & Telemetrie ---
+||metrics.apple.com^
+||metrics.icloud.com^
+||analytics.itunes.apple.com^
+||xp.apple.com^
+
+! --- Microsoft Tracking ---
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||vortex-win.data.microsoft.com^
+||browser.events.data.microsoft.com^
+||mobile.events.data.microsoft.com^$third-party
+||settings-win.data.microsoft.com^$third-party
+
+! --- Mozilla Tracking ---
+||incoming.telemetry.mozilla.org^
+||telemetry.mozilla.org^
+||metrics.mozilla.com^
+||metrics.mozilla.org^
+
+! --- Synology Tracking ---
+||insight.synology.com^
+||analytics.synology.com^
+
+! --- Plex Tracking ---
+||metrics.plex.tv^
+||analytics.plex.tv^
+
+! --- Fingerprinting Dienste ---
+||fingerprintjs.com^
+||fingerprint.com^
+||ident.me^
+||ipinfo.io^
+||ip-api.com^
+
+! --- Consent / Cookie-Banner Tracking ---
+||privacy-mgmt.com^
+||consentmanager.net^
+||cookielaw.org^
+||quantcast.mgr.consensu.org^
+
+
+
+
+
+
 sdk.us-10.braze.com
 api.bitdrift.io
 dpm.demdex.net
 assets.adobedtm.com
 audible.sc.omtrdc.net
+
 vpn.mozilla.org
-senderbase.org
-||senderbase.org^
+# senderbase.org
+# ||senderbase.org^
+
 nmrodam.com
 ||nmrodam.com^
-example.org
-||example.org^
-example.com
-||example.com^
-example.edu
-||example.edu^
-example.net
-||example.net^
+
+# example.org
+# ||example.org^
+# example.com
+# ||example.com^
+# example.edu
+# ||example.edu^
+# example.net
+# ||example.net^
+
 skype.com
 ||skype.com^
 
-miwifi.com
-||miwifi.com^
+# miwifi.com
+# ||miwifi.com^
+
 
 ! ============================================================
 ! Blockliste: Russische Domains (RU, SU, RF, IDN, SLDs)
@@ -105,7 +191,7 @@ miwifi.com
 ! ============================================================
 
 
-||1e100.net^
+
 qualtrics.com
 analyticsengine.s3.amazonaws.com
 advertising-api-eu.amazon.com
@@ -121,9 +207,6 @@ teams.nel.measure.office.net
 ris.api.iris.microsoft.com
 noticecdn.samsungcloudsolution.com
 csm-e-skyde-eb.cds1.yospace.com
-firebase-settings.crashlytics.com
-firebaseinappmessaging.googleapis.com
-firebaselogging-pa.googleapis.com
 tags.tiqcdn.com
 affiliationjs.s3.amazonaws.com
 web-ads.10sq.net
@@ -156,7 +239,7 @@ mt.dai-nowtv.nbcuni.com
 mobile-collector.newrelic.com
 fastly-mobile-collector.newrelic.com
 
-# Teams Discovery+ ESPN HBO Max Hulu Netflix Paramount+ 
+# Teams 
 
 ||lync.cn^
 ||lync.com^
@@ -175,56 +258,3 @@ fastly-mobile-collector.newrelic.com
 ||teams.office.net^
 ||teams.skype.com^
 ||disco-api.com^
-||discoveryplus.com^
-||es.pn^
-||espn.com^
-||espn.com.ar^
-||espn.com.au^
-||espn.com.mx^
-||espn.co.uk^
-||espn.in^
-||espn.net^
-||espncdn.com^
-||espncricinfo.com^
-||hbo.com^
-||hbogo.co.th^
-||hbogo.com^
-||hbogo.eu^
-||hbogoasia.com^
-||hbogoasia.id^
-||hbogoasia.ph^
-||hbomax-images.warnermediacdn.com^
-||hbomax.com^
-||hbomaxcdn.com^
-||hbonow.com^
-||maxgo.com^
-||hulu.com^
-||netflix.com.edgesuite.net^
-||fast.com^
-||netflix.ca^
-||netflix.com^
-||netflix.net^
-||netflixdnstest1.com^
-||netflixdnstest10.com^
-||netflixdnstest2.com^
-||netflixdnstest3.com^
-||netflixdnstest4.com^
-||netflixdnstest5.com^
-||netflixdnstest6.com^
-||netflixdnstest7.com^
-||netflixdnstest8.com^
-||netflixdnstest9.com^
-||netflixinvestor.com^
-||netflixtechblog.com^
-||nflxext.com^
-||nflximg.com^
-||nflximg.net^
-||nflxsearch.net^
-||nflxso.net^
-||nflxvideo.net^
-||paramountplus.com^
-||pplusstatic.com^
-
-
-
-
