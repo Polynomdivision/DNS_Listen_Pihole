@@ -258,3 +258,28 @@ fastly-mobile-collector.newrelic.com
 ||teams.office.net^
 ||teams.skype.com^
 ||disco-api.com^
+
+! --- Windows Update Block ---
+||windowsupdate.microsoft.com^
+||update.microsoft.com^
+||windowsupdate.com^
+||download.windowsupdate.com^
+||dl.delivery.mp.microsoft.com^
+||emdl.ws.microsoft.com^
+||fe2.update.microsoft.com^
+||fe3.update.microsoft.com^
+||fe3.delivery.mp.microsoft.com^
+||tlu.dl.delivery.mp.microsoft.com^
+||au.download.windowsupdate.com^
+
+! --- Optional: Feature Updates härter blockieren ---
+||delivery.mp.microsoft.com^
+||update.microsoft.com^
+||windowsupdate.com^
+
+! --- Defender explizit erlauben ---
+@@||definitions.update.microsoft.com^
+@@||wdcp.microsoft.com^
+@@||wdcpalt.microsoft.com^
+@@||download.microsoft.com^
+@@||wd.microsoft.com^
