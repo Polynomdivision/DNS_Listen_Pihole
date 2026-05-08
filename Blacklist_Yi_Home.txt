@@ -1,0 +1,38 @@
+############################################################
+# YI HOME + TP-LINK KASA – ANTI-ADS & ANTI-TRACKING LISTE
+############################################################
+
+# YI Home – Werbung & Tracking
+||cloud.yitechnology.com^
+||api.yitechnology.com^$third-party
+||ad.yitechnology.com^
+||ads.yitechnology.com^
+||tracking.yitechnology.com^
+||analytics.yitechnology.com^
+||log.yitechnology.com^
+
+# YI – Drittanbieter-Tracking
+||umeng.com^
+||umengcloud.com^
+||umenglog.com^
+||bugly.qq.com^
+||stat.yi.com^
+
+# TP-Link KASA – Werbung & Tracking
+||use1-api.tplinkcloud.com^$third-party
+||eu-wap.tplinkcloud.com^$third-party
+||wap.tplinkcloud.com^$third-party
+||log.tplinkcloud.com^
+||metrics.tplinkcloud.com^
+||analytics.tplinkcloud.com^
+
+# TP-Link – Drittanbieter-Tracking
+||appsflyer.com^
+||adjust.com^
+||branch.io^
+||crashlytics.com^
+||firebaseinstallations.googleapis.com^$third-party
+
+############################################################
+# ENDE DER YI + KASA ANTI-ADS LISTE – COPILOT FÜR FRITZ
+############################################################

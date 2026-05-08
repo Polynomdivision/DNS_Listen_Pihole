@@ -1,4 +1,198 @@
-# 6.5.2026 01.30 Uhr
+############################################################
+# MASTER-BLACKLIST – ERSTELLT VON COPILOT FÜR FRITZ
+# Datum: 08.05.2026 – Mannheim
+############################################################
+
+
+############################################################
+# 1. APPLE-TRACKING (iPhone/iPad ohne Tracking)
+############################################################
+||ads.apple.com^
+||iad.apple.com^
+||metrics.apple.com^
+||analytics.apple.com^
+||telemetry.apple.com^
+||app-measurement.com^
+
+
+############################################################
+# 2. GOOGLE-TRACKING & WERBUNG
+############################################################
+||doubleclick.net^
+||googlesyndication.com^
+||googletagmanager.com^
+||googletagservices.com^
+||google-analytics.com^
+||adservice.google.com^
+||adservice.google.de^
+||gstaticadssl.l.google.com^
+
+
+############################################################
+# 3. META (FACEBOOK / INSTAGRAM) TRACKING
+############################################################
+||facebook.net^
+||connect.facebook.net^
+||graph.facebook.com^
+||graph.instagram.com^
+||ads.instagram.com^
+||ads.facebook.com^
+
+
+############################################################
+# 4. TIKTOK-TRACKING
+############################################################
+||analytics.tiktok.com^
+||ads.tiktok.com^
+||log.tiktokv.com^
+||tracking.tiktok.com^
+
+
+############################################################
+# 5. AMAZON-TRACKING (Prime Video bleibt unberührt)
+############################################################
+||amazon-adsystem.com^
+||aaxads.com^
+||aax-eu.amazon-adsystem.com^
+||fls-eu.amazon.com^
+
+
+############################################################
+# 6. MICROSOFT-TRACKING
+############################################################
+||bat.bing.com^
+||telemetry.microsoft.com^
+||vortex.data.microsoft.com^
+||settings-win.data.microsoft.com^
+||browser.events.data.microsoft.com^
+
+
+############################################################
+# 7. ALLGEMEINE WERBENETZWERKE
+############################################################
+||adnxs.com^
+||adform.net^
+||criteo.com^
+||criteo.net^
+||taboola.com^
+||outbrain.com^
+||zedo.com^
+||rubiconproject.com^
+||scorecardresearch.com^
+||quantserve.com^
+||doubleverify.com^
+
+
+############################################################
+# 8. TRACKING-CDNs (ohne Streaming-CDNs!)
+############################################################
+||tracking-protection.cdn.mozilla.net^
+||metrics.cdn.mozilla.net^
+||adobedtm.com^
+||demdex.net^
+||omtrdc.net^
+
+
+############################################################
+# 9. MALWARE / SCAM / CRYPTO-MINING
+############################################################
+||coinhive.com^
+||cryptoloot.pro^
+||minero.pw^
+||browsermine.com^
+||best-prize-winner.com^
+||your-virus-is-detected.com^
+||fake-antivirus-alert.com^
+
+
+############################################################
+# 10. IoT-SPYWARE / CHINA-CLOUD-LEAKS
+############################################################
+||tuyaus.com^
+||tuyaus.net^
+||tuyaeu.net^
+||tuyaus.cn^
+||360.cn^
+||baidu.com^
+||umeng.com^
+||alibaba-inc.com^
+
+
+############################################################
+# 11. PORN-ADS / REDIRECT-SPAM (ohne Inhalte zu blockieren)
+############################################################
+||trafficjunky.net^
+||juicyads.com^
+||exoclick.com^
+||popads.net^
+||popcash.net^
+
+
+############################################################
+# 12. VPN-LEAK-BLOCKER (DNS-Leaks verhindern)
+############################################################
+||dnsleaktest.com^$third-party
+||ipleak.net^$third-party
+||browserleaks.com^$third-party
+
+
+############################################################
+# ENDE DER MASTER-BLACKLIST – ERSTELLT VON COPILOT FÜR FRITZ
+############################################################
+
+############################################################
+# PLEX TRACKING / TELEMETRIE / ANALYTICS
+############################################################
+
+||plex.tv^$third-party
+||metrics.plex.tv^
+||analytics.plex.tv^
+||pubsub.plex.bz^
+||pubsub.plex.tv^
+||meta-db-worker.plex.tv^
+||meta.plex.tv^
+||meta.plex.bz^
+||status.plex.tv^
+||telemetry.plex.tv^
+||events.plexapp.com^
+||logs.plexapp.com^
+||metrics.plexapp.com^
+||analytics.plexapp.com^
+||tvdb2.plex.tv^
+||cpms.spop10.ams.plex.bz^
+||cpms35.spop10.ams.plex.bz^
+||proxy.plex.bz^
+||proxy.plex.tv^
+||proxy02.pop.ord.plex.bz^
+||proxy02.pop.ord.plex.tv^
+||proxy.plex.direct^
+||staging.plex.tv^
+||staging.plexapp.com^
+||clients.plex.tv^
+||clients.plexapp.com^
+||discover.provider.plex.tv^
+||discover.provider.plex.direct^
+||directory.plex.tv^
+||directory.plexapp.com^
+||directory.plex.direct^
+||app.plex.tv^$third-party
+||plex.tv/api/v2/user^
+||plex.tv/api/v2/home^
+||plex.tv/api/v2/resources^
+
+
+
+
+# 5.5.2026 22.30 Uhr
+
+# filedownload.lenovo.com
+# ||filedownload.lenovo.com^
+# lenovomm.com
+# ||lenovomm.com^
+# lenovomm.cn
+# ||lenovomm.cn^
+# lenovo.com.cn
+# ||lenovo.com.cn^
 
 ! --- Allgemeine Tracking-Netzwerke ---
 ||doubleclick.net^
@@ -78,21 +272,6 @@
 ||quantcast.mgr.consensu.org^
 
 
-sdk.us-10.braze.com
-api.bitdrift.io
-dpm.demdex.net
-assets.adobedtm.com
-audible.sc.omtrdc.net
-
-vpn.mozilla.org
-
-nmrodam.com
-||nmrodam.com^
-
-skype.com
-||skype.com^
-
-
 ! ============================================================
 ! Blockliste: Russische Domains (RU, SU, RF, IDN, SLDs)
 ! Format: ABP / uBlock Origin kompatibel
@@ -150,6 +329,14 @@ skype.com
 ! Ende der Liste
 ! ============================================================
 
+
+
+
+vpn.mozilla.org
+
+
+
+# illegale Streamingseiten
 
 annas-archive.gd
 annas-archive.pk
@@ -391,98 +578,3 @@ www8.kinos.to
 www8.kinox.to
 www8.kinoz.to
 www9.kinox.to
-
-qualtrics.com
-analyticsengine.s3.amazonaws.com
-advertising-api-eu.amazon.com
-stats.pusher.com
-wdd.com
-securedoffers.com
-analytics-log.withhive.com
-telemetry.gfe.nvidia.com
-telemetry.canva.com
-analytics-alv.google.com
-events.mz.unity3d.com
-teams.nel.measure.office.net
-ris.api.iris.microsoft.com
-noticecdn.samsungcloudsolution.com
-csm-e-skyde-eb.cds1.yospace.com
-firebase-settings.crashlytics.com
-firebaseinappmessaging.googleapis.com
-firebaselogging-pa.googleapis.com
-tags.tiqcdn.com
-affiliationjs.s3.amazonaws.com
-web-ads.10sq.net
-www.mytrackinfos.de
-mytrackinfos.de
-justtrack-logs.justtrack.io
-sdk-api.justtrack.io
-prod.adjoe-programmatic.com
-ads.twdcgrid.com
-freezer.life
-freezerapp.xyz
-incoming.telemetry.mozilla.org
-||telemetry.mozilla.org^
-cloudflareresearch.com
-dap.cloudflareresearch.com
-helper1.dap.cloudflareresearch.com
-divviup.org
-api.divviup.org
-dap.services.mozilla.com
-activation.generalmobile.com
-ads-proxy-aka.prod.bo.canal.canalplustech.pro
-||qqco.net^
-mt.dai-nowtv.nbcuni.com
-||pangeawanderers.com^
-||7fugame.net^
-||piplslovers.ru^
-||blacklistpiplslovers.ru^
-||louxiacn.net^
-||blacklistlouxiacn.net^
-mobile-collector.newrelic.com
-fastly-mobile-collector.newrelic.com
-
-# Teams 
-
-||lync.cn^
-||lync.com^
-||ms-acdc-teams.office.com^
-||sfbassets.com^
-||skypeforbusiness.com^
-||teams.cdn.live.net^
-||teams.cdn.office.net^
-||teams-dc-msedge.net^
-||teams.events.data.microsoft.com^
-||teams.live.com^
-||teams.microsoft.com^
-||teams.microsoft.us^
-||teams-msedge.net^
-||teams.office.com^
-||teams.office.net^
-||teams.skype.com^
-||disco-api.com^
-
-! --- Windows Update Block ---
-||windowsupdate.microsoft.com^
-||update.microsoft.com^
-||windowsupdate.com^
-||download.windowsupdate.com^
-||dl.delivery.mp.microsoft.com^
-||emdl.ws.microsoft.com^
-||fe2.update.microsoft.com^
-||fe3.update.microsoft.com^
-||fe3.delivery.mp.microsoft.com^
-||tlu.dl.delivery.mp.microsoft.com^
-||au.download.windowsupdate.com^
-
-! --- Optional: Feature Updates härter blockieren ---
-||delivery.mp.microsoft.com^
-||update.microsoft.com^
-||windowsupdate.com^
-
-! --- Defender explizit erlauben ---
-@@||definitions.update.microsoft.com^
-@@||wdcp.microsoft.com^
-@@||wdcpalt.microsoft.com^
-@@||download.microsoft.com^
-@@||wd.microsoft.com^
