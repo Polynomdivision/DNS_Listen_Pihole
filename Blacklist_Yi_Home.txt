@@ -1,30 +1,35 @@
 ############################################################
-# YI HOME + TP-LINK KASA – ANTI-ADS & ANTI-TRACKING LISTE
+# HARDCORE YI + KASA BLOCKLISTE – COPILOT FÜR FRITZ
 ############################################################
 
-# YI Home – Werbung & Tracking
-||cloud.yitechnology.com^
-||api.yitechnology.com^$third-party
+# YI / KAMI – Werbung, Tracking, China-Analytics
 ||ad.yitechnology.com^
 ||ads.yitechnology.com^
 ||tracking.yitechnology.com^
 ||analytics.yitechnology.com^
 ||log.yitechnology.com^
+||cloud.yitechnology.com^$third-party
+||api.yitechnology.com^$third-party
 
-# YI – Drittanbieter-Tracking
+# YI – China-Tracking (Umeng, Bugly, etc.)
 ||umeng.com^
 ||umengcloud.com^
 ||umenglog.com^
 ||bugly.qq.com^
+||bugly.qcloud.com^
 ||stat.yi.com^
+||cnzz.com^
+||cnzz.net^
 
-# TP-Link KASA – Werbung & Tracking
+# TP-Link KASA / TAPO – Werbung & Tracking
 ||use1-api.tplinkcloud.com^$third-party
 ||eu-wap.tplinkcloud.com^$third-party
 ||wap.tplinkcloud.com^$third-party
 ||log.tplinkcloud.com^
 ||metrics.tplinkcloud.com^
 ||analytics.tplinkcloud.com^
+||eu-wap.tplinkcloud.com^
+||wap.tplinkcloud.com^
 
 # TP-Link – Drittanbieter-Tracking
 ||appsflyer.com^
@@ -32,7 +37,15 @@
 ||branch.io^
 ||crashlytics.com^
 ||firebaseinstallations.googleapis.com^$third-party
+||firebase-settings.crashlytics.com^
+||app-measurement.com^
+
+# TP-Link – Marketing & A/B Testing
+||events.tplinkcloud.com^
+||push.tplinkcloud.com^
+||promo.tplinkcloud.com^
+||ads.tplinkcloud.com^
 
 ############################################################
-# ENDE DER YI + KASA ANTI-ADS LISTE – COPILOT FÜR FRITZ
+# ENDE DER HARDCORE YI + KASA BLOCKLISTE – COPILOT FÜR FRITZ
 ############################################################
