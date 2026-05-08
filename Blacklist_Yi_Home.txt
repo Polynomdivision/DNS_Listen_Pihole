@@ -1,51 +1,73 @@
 ############################################################
-# HARDCORE YI + KASA BLOCKLISTE – COPILOT FÜR FRITZ
+# HARDCORE YI + KASA BLOCKLISTE – KOMPLETTE VERSION
 ############################################################
 
-# YI / KAMI – Werbung, Tracking, China-Analytics
-||ad.yitechnology.com^
-||ads.yitechnology.com^
-||tracking.yitechnology.com^
-||analytics.yitechnology.com^
-||log.yitechnology.com^
-||cloud.yitechnology.com^$third-party
-||api.yitechnology.com^$third-party
+# Globale Werbe-CDNs
+googlesyndication.com
+googleads.g.doubleclick.net
+doubleclick.net
+adservice.google.com
+adservice.google.de
+pagead2.googlesyndication.com
+g.doubleclick.net
+securepubads.g.doubleclick.net
 
-# YI – China-Tracking (Umeng, Bugly, etc.)
-||umeng.com^
-||umengcloud.com^
-||umenglog.com^
-||bugly.qq.com^
-||bugly.qcloud.com^
-||stat.yi.com^
-||cnzz.com^
-||cnzz.net^
+# ByteDance / TikTok Ads
+pangle.io
+pangolin-sdk-toutiao.com
+byteoversea.com
+bytedance.com
+sf16-static.i18n-pglstatp.com
+log.byteoversea.com
 
-# TP-Link KASA / TAPO – Werbung & Tracking
-||use1-api.tplinkcloud.com^$third-party
-||eu-wap.tplinkcloud.com^$third-party
-||wap.tplinkcloud.com^$third-party
-||log.tplinkcloud.com^
-||metrics.tplinkcloud.com^
-||analytics.tplinkcloud.com^
-||eu-wap.tplinkcloud.com^
-||wap.tplinkcloud.com^
+# China Ad Networks
+umeng.com
+umengcloud.com
+umenglog.com
+cnzz.com
+cnzz.net
+tanx.com
+alimama.com
+mmstat.com
+youku.com
+tudou.com
 
-# TP-Link – Drittanbieter-Tracking
-||appsflyer.com^
-||adjust.com^
-||branch.io^
-||crashlytics.com^
-||firebaseinstallations.googleapis.com^$third-party
-||firebase-settings.crashlytics.com^
-||app-measurement.com^
+# Tencent Tracking / Bugly
+bugly.qq.com
+bugly.qcloud.com
+tencentcloudapi.com
+log.tbs.qq.com
+pingma.qq.com
 
-# TP-Link – Marketing & A/B Testing
-||events.tplinkcloud.com^
-||push.tplinkcloud.com^
-||promo.tplinkcloud.com^
-||ads.tplinkcloud.com^
+# App-Tracking SDKs
+appsflyer.com
+adjust.com
+branch.io
+kochava.com
+singular.net
+crashlytics.com
+firebaseinstallations.googleapis.com
+firebase-settings.crashlytics.com
+app-measurement.com
+events.appsflyer.com
+config.appsflyer.com
+
+# YI / Kami Tracking
+log.yitechnology.com
+analytics.yitechnology.com
+tracking.yitechnology.com
+ads.yitechnology.com
+ad.yitechnology.com
+stat.yi.com
+
+# TP-Link KASA / Tapo Tracking
+metrics.tplinkcloud.com
+analytics.tplinkcloud.com
+log.tplinkcloud.com
+events.tplinkcloud.com
+promo.tplinkcloud.com
+ads.tplinkcloud.com
 
 ############################################################
-# ENDE DER HARDCORE YI + KASA BLOCKLISTE – COPILOT FÜR FRITZ
+# ENDE DER KOMPLETTEN HARDCORE-LISTE – COPILOT FÜR FRITZ
 ############################################################
