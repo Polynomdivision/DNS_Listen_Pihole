@@ -1,64 +1,64 @@
 ############################################################
-# MICROSOFT UPDATE + TEAMS BLOCKLIST
-# DEFENDER & STORE BLEIBEN FUNKTIONAL
+# MICROSOFT UPDATE BLOCKLIST (Defender bleibt aktiv)
+# Erstellt von Copilot (Microsoft) für Fritz – Mannheim
+# Datum: 08.05.2026
+#
+# Zweck:
+# - Blockiert Windows Updates vollständig
+# - Defender, SmartScreen, Signaturen bleiben funktionsfähig
+#
+# Diese Liste DARF erweitert werden.
 ############################################################
 
 
-############################
-# 1. WINDOWS-UPDATES BLOCKIEREN
-############################
-||windowsupdate.com^
-||update.microsoft.com^
-||windowsupdate.microsoft.com^
-||download.windowsupdate.com^
-||dl.delivery.mp.microsoft.com^
-||tlu.dl.delivery.mp.microsoft.com^
-||emdl.ws.microsoft.com^
-||fe2.update.microsoft.com^
-||fe3.delivery.mp.microsoft.com^
-||fe2cr.update.microsoft.com^
-||fe2ws.microsoft.com^
-||sls.update.microsoft.com^
-||statsfe2.update.microsoft.com^
-||statsfe1.update.microsoft.com^
+############################################################
+# 1. WINDOWS UPDATE – BLOCKIEREN
+# Diese Domains sind NUR für Windows Updates.
+# Defender nutzt sie NICHT.
+############################################################
 
-
-############################
-# 2. MICROSOFT TEAMS BLOCKIEREN
-############################
-||teams.microsoft.com^
-||teams.live.com^
-||teams.cdn.office.net^
-||statics.teams.cdn.office.net^
-||teams.events.data.microsoft.com^
-||presence.teams.microsoft.com^
-||prod.msocdn.com^
-||officeapps.live.com^$third-party
-
-
-############################
-# 3. DEFENDER-UPDATE-DOMAINS ERLAUBEN (NICHT BLOCKIEREN!)
-############################
-@@||wdcp.microsoft.com^
-@@||wdcpalt.microsoft.com^
-@@||definitionupdates.microsoft.com^
-@@||download.microsoft.com^
-@@||msdl.microsoft.com^
-@@||smartscreen.microsoft.com^
-@@||smartscreen-prod.microsoft.com^
-@@||winatp-gw-*.microsoft.com^
-
-
-############################
-# 4. STORE & ACTIVATION ERLAUBEN (NICHT BLOCKIEREN!)
-############################
-@@||storeedgefd.dsx.mp.microsoft.com^
-@@||licensing.mp.microsoft.com^
-@@||activation.sls.microsoft.com^
-@@||xboxlive.com^
-@@||xboxservices.com^
+windowsupdate.com
+update.microsoft.com
+windowsupdate.microsoft.com
+download.windowsupdate.com
+dl.delivery.mp.microsoft.com
+tlu.dl.delivery.mp.microsoft.com
+emdl.ws.microsoft.com
+fe2.update.microsoft.com
+fe3.delivery.mp.microsoft.com
+fe2cr.update.microsoft.com
+fe2ws.microsoft.com
+sls.update.microsoft.com
+statsfe2.update.microsoft.com
+statsfe1.update.microsoft.com
 
 
 ############################################################
-# ENDE DER MICROSOFT UPDATE + TEAMS BLOCKLIST
+# 2. OPTIONAL: WINDOWS UPDATE TELEMETRIE – BLOCKIEREN
+# Diese sind nicht kritisch, aber reduzieren Update-Tracking.
+############################################################
+
+fe2.update.microsoft.com.akadns.net
+delivery.mp.microsoft.com
+statsfe2.update.microsoft.com
+statsfe1.update.microsoft.com
+
+
+############################################################
+# 3. DEFENDER / SECURITY – NICHT BLOCKIEREN!
+# (Nur zur Info – NICHT blockieren!)
+#
+# wdcp.microsoft.com
+# wdcpalt.microsoft.com
+# definitionupdates.microsoft.com
+# smartscreen.microsoft.com
+# winatp-gw-*.microsoft.com
+#
+# Diese Domains NICHT in die Blockliste eintragen.
+############################################################
+
+
+############################################################
+# ENDE DER MICROSOFT UPDATE BLOCKLIST
+# Erstellt von Copilot für Fritz – Mannheim – 08.05.2026
 ############################################################

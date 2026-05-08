@@ -1,641 +1,260 @@
-############################################################
-# MASTER-WHITELIST – ERSTELLT VON COPILOT FÜR FRITZ
-# Datum: 08.05.2026 – Mannheim
-# Dienste: Disney+, WaipuTV, Prime Video, FireTV, Netflix,
-# Apple TV+, Privacy, Systemdienste
-############################################################
-
-
-############################################################
-# STREAMING-BEREICH
-############################################################
-
-############################
-# DISNEY+
-############################
-@@||disneyplus.com^
-@@||www.disneyplus.com^
-@@||star.disneyplus.com^
-@@||bamgrid.com^
-@@||dssott.com^
-@@||cdn.registerdisney.go.com^
-@@||cdn.disneyplus.com^
-@@||disneyplus.bn5x.net^
-
-# Conviva (Qualität)
-@@||conviva.com^
-@@||cws.conviva.com^
-
-# CDN nur für Disney+
-@@||*.cloudfront.net$domain=disneyplus.com
-@@||*.akamaized.net$domain=disneyplus.com
-@@||*.akamaihd.net$domain=disneyplus.com
-@@||*.edgesuite.net$domain=disneyplus.com
-@@||*.edgekey.net$domain=disneyplus.com
-
-
-############################
-# WAIPU.TV
-############################
-@@||waipu.tv^
-@@||waipu.tv.edgekey.net^
-@@||waipu.tv.edgesuite.net^
-@@||waipu.tv.cdn.tv1.eu^
-@@||tv1.eu^
-
-# CDN nur für WaipuTV
-@@||*.akamaized.net$domain=waipu.tv
-@@||*.akamaihd.net$domain=waipu.tv
-@@||*.edgesuite.net$domain=waipu.tv
-@@||*.edgekey.net$domain=waipu.tv
-@@||*.cloudfront.net$domain=waipu.tv
-
-
-############################
-# PRIME VIDEO / FIRE TV
-############################
-@@||primevideo.com^
-@@||www.primevideo.com^
-@@||amazonvideo.com^
-@@||www.amazonvideo.com^
-
-# Medien
-@@||aiv-cdn.net^
-@@||media-amazon.com^
-@@||ssl-images-amazon.com^
-
-# FireTV Backend
-@@||firetv-apps.amazon.com^
-@@||device-metrics-us.amazon.com^
-@@||fls-na.amazon.com^
-
-# CDN nur für Prime Video
-@@||*.cloudfront.net$domain=primevideo.com|amazonvideo.com
-@@||*.akamaized.net$domain=primevideo.com|amazonvideo.com
-@@||*.akamaihd.net$domain=primevideo.com|amazonvideo.com
-@@||*.edgesuite.net$domain=primevideo.com|amazonvideo.com
-@@||*.edgekey.net$domain=primevideo.com|amazonvideo.com
-
-# AmazonAWS nur für Prime Video
-@@||*.amazonaws.com$domain=primevideo.com|amazonvideo.com
-
-
-############################
-# NETFLIX
-############################
-@@||netflix.com^
-@@||www.netflix.com^
-@@||nflxvideo.net^
-@@||nflximg.net^
-@@||nflxext.com^
-@@||nflxso.net^
-@@||nflxsearch.net^
-@@||fast.com^
-@@||netflix.net^
-@@||netflixdnstest*.com^
-
-# Netflix CDN
-@@||*.nflxvideo.net^
-@@||*.nflximg.net^
-@@||*.nflxso.net^
-@@||*.nflxext.com^
-
-
-############################
-# APPLE TV+
-############################
-@@||tv.apple.com^
-@@||itunes.apple.com^
-@@||play-edge.itunes.apple.com^
-@@||hls.itunes.apple.com^
-@@||hls-amt.itunes.apple.com^
-@@||hls-svod.itunes.apple.com^
-
-# Apple CDN
-@@||*.apple.com.akadns.net^
-@@||*.icloud-content.com^
-
-# CDN nur für Apple TV+
-@@||*.akamaized.net$domain=tv.apple.com
-@@||*.akamaihd.net$domain=tv.apple.com
-@@||*.edgesuite.net$domain=tv.apple.com
-@@||*.edgekey.net$domain=tv.apple.com
-@@||*.cloudfront.net$domain=tv.apple.com
-
-
-############################################################
-# PRIVACY-WHITELIST
-############################################################
-
-# Sichere DNS / Privacy-Dienste
-@@||dnsforge.de^
-@@||digitale-gesellschaft.ch^
-@@||quad9.net^
-
-# Sichere Mailanbieter
-@@||proton.me^
-@@||protonmail.com^
-@@||tutanota.com^
-
-# Sichere Cloud / Sync
-@@||mega.nz^
-@@||nextcloud.com^
-
-# Sichere VPN-Dienste
-@@||mullvad.net^
-@@||ivpn.net^
-@@||protonvpn.com^
-
-# Sichere Tools
-@@||signal.org^
-@@||session.not^
-@@||threema.ch^
-
-
-############################################################
-# SYSTEM-WHITELIST
-############################################################
-
-############################
-# Betriebssystem-Updates
-############################
-
-# Debian / Linux
-@@||deb.debian.org^
-@@||security.debian.org^
-
-# Apple / macOS / iOS
-@@||apple.com^
-@@||icloud.com^
-@@||ocsp.apple.com^
-@@||gdmf.apple.com^
-@@||captive.apple.com^
-
-# Android / Google
-@@||googleapis.com^
-@@||gvt1.com^
-@@||gvt2.com^
-
-############################
-# NTP / Zeitserver
-############################
-@@||pool.ntp.org^
-@@||time.apple.com^
-@@||time.google.com^
-
-############################
-# DNS / Infrastruktur
-############################
-@@||root-servers.net^
-@@||internic.net^
-@@||arpa^
-
-############################
-# GitHub / Entwicklerdienste
-############################
-@@||github.com^
-@@||raw.githubusercontent.com^
-
-############################
-# Synology
-############################
-@@||synology.com^
-@@||synologyupdate.com^
-@@||synologydownload.com^
-
-############################
-# Firefox Captive Portal
-############################
-@@||detectportal.firefox.com^
-
-
-############################################################
-# ENDE DER MASTER-LISTE – ERSTELLT VON COPILOT FÜR FRITZ
-############################################################
-
-############################################################
-# iPHONE / iPAD – OHNE TRACKING
-############################################################
-
-# Apple Geräte-Aktivierung
-@@||gs.apple.com^
-
-# App Store / Updates
-@@||itunes.apple.com^
-@@||apps.apple.com^
-@@||appstoreconnect.apple.com^
-@@||xp.apple.com^
-
-# iCloud – nur sichere Kernfunktionen (ohne Tracking)
-@@||icloud.com^
-@@||icloud-content.com^
-@@||setup.icloud.com^
-@@||pXX-ckdatabase.icloud.com^
-@@||pXX-ckdatabasews.icloud.com^
-
-# Push Notifications (APNS)
-@@||courier.push.apple.com^
-@@||push.apple.com^
-
-# Apple-ID Login (ohne Werbung)
-@@||appleid.apple.com^
-@@||idmsa.apple.com^
-
-# Captive Portal (WLAN Login)
-@@||captive.apple.com^
-
-# Zeitserver
-@@||time.apple.com^
-
-# Systemdienste ohne Tracking
-@@||gdmf.apple.com^
-@@||ocsp.apple.com^
-
-# BLOCKIERT (NICHT whitelisten – Tracking!)
-# (Nur zur Info, NICHT in die Whitelist einfügen)
-# ads.apple.com
-# metrics.apple.com
-# analytics.apple.com
-# iad.apple.com
-# telemetry.apple.com
-
-
-############################################################
-# SMART-HOME-WHITELIST – ERSTELLT VON COPILOT FÜR FRITZ
-# Datum: 08.05.2026 – Mannheim
-############################################################
-
-
-############################################################
-# PHILIPS HUE
-############################################################
-@@||philips-hue.com^
-@@||meethue.com^
-@@||discovery.meethue.com^
-@@||api.meethue.com^
-@@||ssl.meethue.com^
-@@||philips.com^
-
-
-############################################################
-# TADO
-############################################################
-@@||tado.com^
-@@||my.tado.com^
-@@||auth.tado.com^
-@@||app.tado.com^
-@@||dc.tado.com^
-
-
-############################################################
-# SHELLY
-############################################################
-@@||shelly.cloud^
-@@||shelly-api-eu.shelly.cloud^
-@@||shelly-api.shelly.cloud^
-@@||shelly-support.eu^
-
-
-############################################################
-# APPLE HOMEKIT (OHNE TRACKING)
-############################################################
-@@||homekit.apple.com^
-@@||icloud.com^
-@@||pXX-ckdatabase.icloud.com^
-@@||pXX-ckdatabasews.icloud.com^
-@@||push.apple.com^
-@@||courier.push.apple.com^
-
-# NICHT freigeben (Tracking)
-# metrics.apple.com
-# iad.apple.com
-# analytics.apple.com
-
-
-############################################################
-# HOME ASSISTANT
-############################################################
-@@||home-assistant.io^
-@@||cloud.hass.io^
-@@||nabu.casa^
-
-
-############################################################
-# NANOLEAF
-############################################################
-@@||nanoleaf.me^
-@@||api.nanoleaf.me^
-
-
-############################################################
-# EVE (HomeKit)
-############################################################
-@@||evehome.com^
-@@||api.evehome.com^
-
-
-############################################################
-# TUYA / SMART LIFE
-############################################################
-@@||tuya.com^
-@@||eu.tuya.com^
-@@||api.tuyaeu.com^
-@@||smartlife.com^
-
-
-############################################################
-# TP-LINK / KASA
-############################################################
-@@||tplinkcloud.com^
-@@||devs.tplinkcloud.com^
-@@||wap.tplinkcloud.com^
-
-
-############################################################
-# RING
-############################################################
-@@||ring.com^
-@@||api.ring.com^
-@@||cloudfront.net$domain=ring.com
-
-
-############################################################
-# REOLINK
-############################################################
-@@||reolink.com^
-@@||eu.reolink.com^
-@@||cloud.reolink.com^
-
-
-############################################################
-# BOSCH SMART HOME
-############################################################
-@@||bosch-smarthome.com^
-@@||api.bosch-smarthome.com^
-
-
-############################################################
-# NUKI
-############################################################
-@@||nuki.io^
-@@||api.nuki.io^
-
-
-############################################################
-# ROBOROCK
-############################################################
-@@||roborock.com^
-@@||eu.roborock.com^
-@@||api.roborock.com^
-
-
-############################################################
-# ENDE DER SMART-HOME-LISTE – ERSTELLT VON COPILOT FÜR FRITZ
-############################################################
-
-
-############################################################
-# GAMING-WHITELIST – ERSTELLT VON COPILOT FÜR FRITZ
-# Datum: 08.05.2026 – Mannheim
-############################################################
-
-
-############################################################
-# XBOX LIVE
-############################################################
-@@||xboxlive.com^
-@@||xbox.com^
-@@||live.com^
-@@||xboxservices.com^
-@@||gamepass.com^
-@@||playfabapi.com^
-
-# Multiplayer / Matchmaking
-@@||xboxlive.com.edgesuite.net^
-
-
-############################################################
-# PLAYSTATION NETWORK (PSN)
-############################################################
-@@||playstation.com^
-@@||sonyentertainmentnetwork.com^
-@@||psnprofiles.com^
-@@||api.playstation.com^
-
-# Multiplayer
-@@||playstation.net^
-
-
-############################################################
-# STEAM
-############################################################
-@@||steampowered.com^
-@@||steamcommunity.com^
-@@||steamcontent.com^
-@@||steamstatic.com^
-@@||steamserver.net^
-
-# CDN
-@@||*.steamcontent.com^
-
-
-############################################################
-# EPIC GAMES
-############################################################
-@@||epicgames.com^
-@@||unrealengine.com^
-@@||fortnite.com^
-@@||launcher.epicgames.com^
-
-
-############################################################
-# RIOT GAMES (VALORANT / LOL)
-############################################################
-@@||riotgames.com^
-@@||leagueoflegends.com^
-@@||valorant.com^
-@@||pvp.net^
-@@||riotcdn.net^
-
-
-############################################################
-# BLIZZARD / BATTLE.NET
-############################################################
-@@||battle.net^
-@@||blizzard.com^
-@@||blzstatic.com^
-@@||blz-contentstack.com^
-
-
-############################################################
-# UBISOFT CONNECT
-############################################################
-@@||ubisoft.com^
-@@||uplay.com^
-@@||ubisoftconnect.com^
-
-
-############################################################
-# EA / ORIGIN
-############################################################
-@@||ea.com^
-@@||origin.com^
-@@||easports.com^
-@@||cloudsync.ea.com^
-
-
-############################################################
-# NINTENDO SWITCH ONLINE
-############################################################
-@@||nintendo.net^
-@@||nintendo.com^
-@@||nintendo-europe.com^
-@@||nsatc.net^
-
-
-############################################################
-# ROCKSTAR SOCIAL CLUB
-############################################################
-@@||rockstargames.com^
-@@||socialclub.rockstargames.com^
-@@||rgl.rockstargames.com^
-
-
-############################################################
-# DISCORD (Voice Chat)
-############################################################
-@@||discord.com^
-@@||discord.gg^
-@@||discordapp.com^
-@@||discord.media^
-@@||discordapp
-
-
-# 6.5.2026 01.30 Uhr
-
-# Liste allgemein
-
-# damit pihole Zeit (NTP) Root‑Hints Debian‑Updates Pi‑hole‑Updates (GitHub) Reverse‑DNS funktionieren
-
-@@||pool.ntp.org^
-@@||time.google.com^
-@@||time.cloudflare.com^
-@@||time.windows.com^
-@@||time.apple.com^
-
-@@||www.internic.net^
-
-@@||deb.debian.org^
-@@||security.debian.org^
-@@||fastlydns.net^
-
-@@||raw.githubusercontent.com^
-@@||github.com^
-@@||api.github.com^
-
-@@||in-addr.arpa^
-@@||ip6.arpa^
-
-@@||disneyplus.com^
-@@||www.disneyplus.com^
-@@||star.disneyplus.com^
-@@||bamgrid.com^
-@@||dssott.com^
-@@||cdn.registerdisney.go.com^
-@@||cdn.disneyplus.com^
-@@||disneyplus.bn5x.net^
-@@||disneyplus.com.edgekey.net^
-@@||disneyplus.com.edgesuite.net^
-@@||akamaized.net^
-@@||akamaihd.net^
-@@||edgesuite.net^
-@@||edgekey.net^
-@@||cloudfront.net^
-@@||conviva.com^
-@@||cws.conviva.com^
-
-@@||netflix.com^
-@@||www.netflix.com^
-@@||nflxvideo.net^
-@@||nflximg.net^
-@@||nflxext.com^
-@@||nflxso.net^
-@@||nflxsearch.net^
-@@||fast.com^
-@@||netflix.net^
-@@||netflixdnstest*.com^
-
-@@||primevideo.com^
-@@||www.primevideo.com^
-@@||amazonvideo.com^
-@@||aiv-cdn.net^
-@@||media-amazon.com^
-@@||ssl-images-amazon.com^
-@@||amazonaws.com^
-@@||cloudfront.net^
-@@||fls-na.amazon.com^
-
-@@||waipu.tv^
-@@||waipu.tv.edgekey.net^
-@@||waipu.tv.edgesuite.net^
-@@||waipu.tv.cdn.tv1.eu^
-@@||tv1.eu^
-@@||akamaized.net^
-@@||akamaihd.net^
-@@||edgesuite.net^
-@@||edgekey.net^
-@@||cloudfront.net^
-@@||firebaseio.com^
-@@||firebasestorage.googleapis.com^
-@@||amazonaws.com^
-
-@@||plex.tv^
-@@||app.plex.tv^
-@@||cpms.spop10.plex.tv^
-@@||pubsub.plex.bz^
-@@||pubsub*.plex.bz^
-@@||*.plex.direct^
-@@||tvdb2.plex.tv^
-
-@@||captive.apple.com^
-@@||gsp-ssl.ls.apple.com^
-@@||gspe1-ssl.ls.apple.com^
-@@||ocsp.apple.com^
-@@||ocsp2.apple.com^
-@@||time.apple.com^
-@@||mask.icloud.com^
-@@||gateway.icloud.com^
-@@||setup.icloud.com^
-@@||push.apple.com^
-@@||icloud.com^
-@@||appleid.apple.com^
-
-
+disneyplus.com
+www.disneyplus.com
+star.disneyplus.com
+bamgrid.com
+dssott.com
+cdn.registerdisney.go.com
+cdn.disneyplus.com
+disneyplus.bn5x.net
+conviva.com
+cws.conviva.com
+cloudfront.net
+akamaized.net
+akamaihd.net
+edgesuite.net
+edgekey.net
+
+waipu.tv
+waipu.tv.edgekey.net
+waipu.tv.edgesuite.net
+waipu.tv.cdn.tv1.eu
+tv1.eu
+
+primevideo.com
+www.primevideo.com
+amazonvideo.com
+www.amazonvideo.com
+aiv-cdn.net
+media-amazon.com
+ssl-images-amazon.com
+firetv-apps.amazon.com
+device-metrics-us.amazon.com
+fls-na.amazon.com
+amazonaws.com
+
+netflix.com
+www.netflix.com
+nflxvideo.net
+nflximg.net
+nflxext.com
+nflxso.net
+nflxsearch.net
+fast.com
+netflix.net
+
+tv.apple.com
+itunes.apple.com
+play-edge.itunes.apple.com
+hls.itunes.apple.com
+hls-amt.itunes.apple.com
+hls-svod.itunes.apple.com
+apple.com.akadns.net
+icloud-content.com
+
+dnsforge.de
+digitale-gesellschaft.ch
+quad9.net
+
+proton.me
+protonmail.com
+tutanota.com
+
+mega.nz
+nextcloud.com
+
+mullvad.net
+ivpn.net
+protonvpn.com
+
+signal.org
+session.not
+threema.ch
+
+deb.debian.org
+security.debian.org
+
+apple.com
+icloud.com
+ocsp.apple.com
+gdmf.apple.com
+captive.apple.com
+
+googleapis.com
+gvt1.com
+gvt2.com
+
+pool.ntp.org
+time.apple.com
+time.google.com
+time.cloudflare.com
+time.windows.com
+
+root-servers.net
+internic.net
+arpa
+
+github.com
+raw.githubusercontent.com
+
+synology.com
+synologyupdate.com
+synologydownload.com
+
+detectportal.firefox.com
+
+gs.apple.com
+apps.apple.com
+appstoreconnect.apple.com
+setup.icloud.com
+ckdatabase.icloud.com
+ckdatabasews.icloud.com
+courier.push.apple.com
+push.apple.com
+appleid.apple.com
+idmsa.apple.com
+
+philips-hue.com
+meethue.com
+discovery.meethue.com
+api.meethue.com
+ssl.meethue.com
+philips.com
+
+tado.com
+my.tado.com
+auth.tado.com
+app.tado.com
+dc.tado.com
+
+shelly.cloud
+shelly-api-eu.shelly.cloud
+shelly-api.shelly.cloud
+shelly-support.eu
+
+homekit.apple.com
+
+home-assistant.io
+cloud.hass.io
+nabu.casa
+
+nanoleaf.me
+api.nanoleaf.me
+
+evehome.com
+api.evehome.com
+
+tuya.com
+eu.tuya.com
+api.tuyaeu.com
+smartlife.com
+
+tplinkcloud.com
+devs.tplinkcloud.com
+wap.tplinkcloud.com
+
+ring.com
+api.ring.com
+
+reolink.com
+eu.reolink.com
+cloud.reolink.com
+
+bosch-smarthome.com
+api.bosch-smarthome.com
+
+nuki.io
+api.nuki.io
+
+roborock.com
+eu.roborock.com
+api.roborock.com
+
+xboxlive.com
+xbox.com
+live.com
+xboxservices.com
+gamepass.com
+playfabapi.com
+xboxlive.com.edgesuite.net
+
+playstation.com
+sonyentertainmentnetwork.com
+psnprofiles.com
+api.playstation.com
+playstation.net
+
+steampowered.com
+steamcommunity.com
+steamcontent.com
+steamstatic.com
+steamserver.net
+
+epicgames.com
+unrealengine.com
+fortnite.com
+launcher.epicgames.com
+
+riotgames.com
+leagueoflegends.com
+valorant.com
+pvp.net
+riotcdn.net
+
+battle.net
+blizzard.com
+blzstatic.com
+blz-contentstack.com
+
+ubisoft.com
+uplay.com
+ubisoftconnect.com
+
+ea.com
+origin.com
+easports.com
+cloudsync.ea.com
+
+nintendo.net
+nintendo.com
+nintendo-europe.com
+nsatc.net
+
+rockstargames.com
+socialclub.rockstargames.com
+rgl.rockstargames.com
+
+discord.com
+discord.gg
+discordapp.com
+discord.media
 
 www.island-masters.de
-@@||island-masters.de^
+island-masters.de
 
-@@||monoprivacy.io^
-@@||cdn.cookielaw.org^	
-@@||registry.api.cnn.io^	
-@@||api.msn.com^	
-@@||turnip.cdn.turner.com^	
-@@||live-media-aka.warnermediacdn.com^
+monoprivacy.io
+cdn.cookielaw.org
+registry.api.cnn.io
+api.msn.com
+turnip.cdn.turner.com
+live-media-aka.warnermediacdn.com
 
-www.instagram.de
+instagram.com
+instagram.de
 www.instagram.com
-@@||instagram.com^
-@@||instagram.de^
+www.instagram.de
+
+facebook.com
+facebook.de
 www.facebook.com
 www.facebook.de
-@@||facebook.de^
-@@||facebook.com^
-@@||redditmedia.com^
-@@||reddit.com^
-@@||redd.it^
-www.redd.it
-www.reddit.com
 
+redditmedia.com
+reddit.com
+redd.it
+www.reddit.com
+www.redd.it
+
+msftconnecttest.com
 www.msftconnecttest.com
 ipv6.msftconnecttest.com
 dns.msftncsi.com

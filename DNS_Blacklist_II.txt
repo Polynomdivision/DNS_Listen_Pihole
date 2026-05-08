@@ -1,343 +1,253 @@
 ############################################################
-# MASTER-BLACKLIST – ERSTELLT VON COPILOT FÜR FRITZ
-# Datum: 08.05.2026 – Mannheim
+# 1. APPLE – Tracking / Werbung / Telemetrie
 ############################################################
-
-
-############################################################
-# 1. APPLE-TRACKING (iPhone/iPad ohne Tracking)
-############################################################
-||ads.apple.com^
-||iad.apple.com^
-||metrics.apple.com^
-||analytics.apple.com^
-||telemetry.apple.com^
-||app-measurement.com^
+ads.apple.com
+iad.apple.com
+metrics.apple.com
+metrics.icloud.com
+analytics.apple.com
+telemetry.apple.com
+xp.apple.com
 
 
 ############################################################
-# 2. GOOGLE-TRACKING & WERBUNG
+# 2. GOOGLE – Tracking / Werbung / Analytics
 ############################################################
-||doubleclick.net^
-||googlesyndication.com^
-||googletagmanager.com^
-||googletagservices.com^
-||google-analytics.com^
-||adservice.google.com^
-||adservice.google.de^
-||gstaticadssl.l.google.com^
-
-
-############################################################
-# 3. META (FACEBOOK / INSTAGRAM) TRACKING
-############################################################
-||facebook.net^
-||connect.facebook.net^
-||graph.facebook.com^
-||graph.instagram.com^
-||ads.instagram.com^
-||ads.facebook.com^
+adservice.google.com
+adservice.google.de
+doubleclick.net
+google-analytics.com
+googleadservices.com
+googlesyndication.com
+googletagmanager.com
+googletagservices.com
+gstaticadssl.l.google.com
+mathtag.com
+moatads.com
 
 
 ############################################################
-# 4. TIKTOK-TRACKING
+# 3. META – Facebook / Instagram Tracking
 ############################################################
-||analytics.tiktok.com^
-||ads.tiktok.com^
-||log.tiktokv.com^
-||tracking.tiktok.com^
-
-
-############################################################
-# 5. AMAZON-TRACKING (Prime Video bleibt unberührt)
-############################################################
-||amazon-adsystem.com^
-||aaxads.com^
-||aax-eu.amazon-adsystem.com^
-||fls-eu.amazon.com^
+ads.facebook.com
+ads.instagram.com
+connect.facebook.net
+facebook.com
+facebook.net
+graph.facebook.com
+graph.instagram.com
 
 
 ############################################################
-# 6. MICROSOFT-TRACKING
+# 4. TIKTOK – Tracking / Analytics
 ############################################################
-||bat.bing.com^
-||telemetry.microsoft.com^
-||vortex.data.microsoft.com^
-||settings-win.data.microsoft.com^
-||browser.events.data.microsoft.com^
-
-
-############################################################
-# 7. ALLGEMEINE WERBENETZWERKE
-############################################################
-||adnxs.com^
-||adform.net^
-||criteo.com^
-||criteo.net^
-||taboola.com^
-||outbrain.com^
-||zedo.com^
-||rubiconproject.com^
-||scorecardresearch.com^
-||quantserve.com^
-||doubleverify.com^
+ads.tiktok.com
+analytics.tiktok.com
+log.tiktokv.com
+tracking.tiktok.com
 
 
 ############################################################
-# 8. TRACKING-CDNs (ohne Streaming-CDNs!)
+# 5. AMAZON – Tracking (Prime Video bleibt funktionsfähig)
 ############################################################
-||tracking-protection.cdn.mozilla.net^
-||metrics.cdn.mozilla.net^
-||adobedtm.com^
-||demdex.net^
-||omtrdc.net^
-
-
-############################################################
-# 9. MALWARE / SCAM / CRYPTO-MINING
-############################################################
-||coinhive.com^
-||cryptoloot.pro^
-||minero.pw^
-||browsermine.com^
-||best-prize-winner.com^
-||your-virus-is-detected.com^
-||fake-antivirus-alert.com^
+aax-eu.amazon-adsystem.com
+aaxads.com
+amazon-adsystem.com
+fls-eu.amazon.com
+unagi.amazon.com
 
 
 ############################################################
-# 10. IoT-SPYWARE / CHINA-CLOUD-LEAKS
+# 6. MICROSOFT – Telemetrie / Tracking
 ############################################################
-||tuyaus.com^
-||tuyaus.net^
-||tuyaeu.net^
-||tuyaus.cn^
-||360.cn^
-||baidu.com^
-||umeng.com^
-||alibaba-inc.com^
-
-
-############################################################
-# 11. PORN-ADS / REDIRECT-SPAM (ohne Inhalte zu blockieren)
-############################################################
-||trafficjunky.net^
-||juicyads.com^
-||exoclick.com^
-||popads.net^
-||popcash.net^
+bat.bing.com
+browser.events.data.microsoft.com
+mobile.events.data.microsoft.com
+settings-win.data.microsoft.com
+telemetry.microsoft.com
+vortex-win.data.microsoft.com
+vortex.data.microsoft.com
 
 
 ############################################################
-# 12. VPN-LEAK-BLOCKER (DNS-Leaks verhindern)
+# 7. MOZILLA – Telemetrie
 ############################################################
-||dnsleaktest.com^$third-party
-||ipleak.net^$third-party
-||browserleaks.com^$third-party
+incoming.telemetry.mozilla.org
+metrics.cdn.mozilla.net
+metrics.mozilla.com
+metrics.mozilla.org
+telemetry.mozilla.org
+tracking-protection.cdn.mozilla.net
 
 
 ############################################################
-# ENDE DER MASTER-BLACKLIST – ERSTELLT VON COPILOT FÜR FRITZ
+# 8. TRACKING-CDNs (nicht Streaming)
 ############################################################
+adobedtm.com
+demdex.net
+omtrdc.net
+
 
 ############################################################
-# PLEX TRACKING / TELEMETRIE / ANALYTICS
+# 9. ALLGEMEINE WERBENETZWERKE
 ############################################################
-
-||plex.tv^$third-party
-||metrics.plex.tv^
-||analytics.plex.tv^
-||pubsub.plex.bz^
-||pubsub.plex.tv^
-||meta-db-worker.plex.tv^
-||meta.plex.tv^
-||meta.plex.bz^
-||status.plex.tv^
-||telemetry.plex.tv^
-||events.plexapp.com^
-||logs.plexapp.com^
-||metrics.plexapp.com^
-||analytics.plexapp.com^
-||tvdb2.plex.tv^
-||cpms.spop10.ams.plex.bz^
-||cpms35.spop10.ams.plex.bz^
-||proxy.plex.bz^
-||proxy.plex.tv^
-||proxy02.pop.ord.plex.bz^
-||proxy02.pop.ord.plex.tv^
-||proxy.plex.direct^
-||staging.plex.tv^
-||staging.plexapp.com^
-||clients.plex.tv^
-||clients.plexapp.com^
-||discover.provider.plex.tv^
-||discover.provider.plex.direct^
-||directory.plex.tv^
-||directory.plexapp.com^
-||directory.plex.direct^
-||app.plex.tv^$third-party
-||plex.tv/api/v2/user^
-||plex.tv/api/v2/home^
-||plex.tv/api/v2/resources^
+adform.net
+adnxs.com
+adroll.com
+adsafeprotected.com
+criteo.com
+criteo.net
+doubleverify.com
+outbrain.com
+quantserve.com
+rubiconproject.com
+scorecardresearch.com
+taboola.com
+zedo.com
 
 
+############################################################
+# 10. FINGERPRINTING-DIENSTE
+############################################################
+fingerprint.com
+fingerprintjs.com
+ident.me
+ip-api.com
+ipinfo.io
 
 
-# 5.5.2026 22.30 Uhr
-
-# filedownload.lenovo.com
-# ||filedownload.lenovo.com^
-# lenovomm.com
-# ||lenovomm.com^
-# lenovomm.cn
-# ||lenovomm.cn^
-# lenovo.com.cn
-# ||lenovo.com.cn^
-
-! --- Allgemeine Tracking-Netzwerke ---
-||doubleclick.net^
-||googlesyndication.com^
-||googleadservices.com^
-||adnxs.com^
-||adsafeprotected.com^
-||scorecardresearch.com^
-||quantserve.com^
-||criteo.com^
-||criteo.net^
-||taboola.com^
-||outbrain.com^
-||mathtag.com^
-||moatads.com^
-||rubiconproject.com^
-||adform.net^
-||adroll.com^
-||adservice.google.com^
-||adservice.google.de^
-
-! --- Social Tracking ---
-||facebook.com/tr^
-||facebook.net^
-||connect.facebook.net^
-||graph.facebook.com^
-||twitter.com/i/adsct^
-||analytics.tiktok.com^
-||log.pinterest.com^
-
-! --- Amazon / FireTV Tracking ---
-||fls-eu.amazon.com^
-||amazon-adsystem.com^
-||aaxads.com^
-||aax-eu.amazon.com^
-||unagi.amazon.com^$third-party
-
-! --- Apple Tracking & Telemetrie ---
-||metrics.apple.com^
-||metrics.icloud.com^
-||analytics.itunes.apple.com^
-||xp.apple.com^
-
-! --- Microsoft Tracking ---
-||telemetry.microsoft.com^
-||vortex.data.microsoft.com^
-||vortex-win.data.microsoft.com^
-||browser.events.data.microsoft.com^
-||mobile.events.data.microsoft.com^$third-party
-||settings-win.data.microsoft.com^$third-party
-
-! --- Mozilla Tracking ---
-||incoming.telemetry.mozilla.org^
-||telemetry.mozilla.org^
-||metrics.mozilla.com^
-||metrics.mozilla.org^
-
-! --- Synology Tracking ---
-||insight.synology.com^
-||analytics.synology.com^
-
-! --- Plex Tracking ---
-||metrics.plex.tv^
-||analytics.plex.tv^
-
-! --- Fingerprinting Dienste ---
-||fingerprintjs.com^
-||fingerprint.com^
-||ident.me^
-||ipinfo.io^
-||ip-api.com^
-
-! --- Consent / Cookie-Banner Tracking ---
-||privacy-mgmt.com^
-||consentmanager.net^
-||cookielaw.org^
-||quantcast.mgr.consensu.org^
+############################################################
+# 11. MALWARE / SCAM / CRYPTO-MINING
+############################################################
+best-prize-winner.com
+browsermine.com
+coinhive.com
+cryptoloot.pro
+fake-antivirus-alert.com
+minero.pw
+your-virus-is-detected.com
 
 
-! ============================================================
-! Blockliste: Russische Domains (RU, SU, RF, IDN, SLDs)
-! Format: ABP / uBlock Origin kompatibel
-! ============================================================
-
-||ru^
-||su^
-||rf^
-||xn--p1ai^       
-||xn--80adxhks^    
-||xn--p1acf^       
-||com.ru^
-||net.ru^
-||org.ru^
-||pp.ru^
-||msk.ru^          
-||spb.ru^          
-||nov.ru^          
-||perm.ru^
-||irk.ru^
-||kazan.ru^
-||samara.ru^
-||tula.ru^
-||vladivostok.ru^
-||gov.ru^
-||edu.ru^
-||mil.ru^
-||int.ru^
-||biz.ru^
-||info.ru^
-||co.ru^
-||in.ru^
-||pp.ru^
-||tv.ru^
-||land.ru^
-||my.ru^
-||bk.ru^
-||mail.ru^
-||list.ru^
-||inbox.ru^
-||internet.ru^
-||yandex.ru^
-||yandex.net^
-||yandex.st^
-||vk.ru^
-||vk.com^
-||ok.ru^
-||mail.ru^
-||rambler.ru^
-||liveinternet.ru^
-||2ip.ru^
-||ucoz.ru^
-
-! ============================================================
-! Ende der Liste
-! ============================================================
+############################################################
+# 12. IoT-SPYWARE / CHINA-CLOUD-LEAKS
+############################################################
+360.cn
+alibaba-inc.com
+baidu.com
+tuyaeu.net
+tuyaus.cn
+tuyaus.com
+tuyaus.net
+umeng.com
 
 
+############################################################
+# 13. PORN-ADS / REDIRECT-SPAM (keine Inhalte)
+############################################################
+exoclick.com
+juicyads.com
+popads.net
+popcash.net
+trafficjunky.net
 
 
-vpn.mozilla.org
+############################################################
+# 14. VPN-LEAK-BLOCKER
+############################################################
+browserleaks.com
+dnsleaktest.com
+ipleak.net
 
 
+############################################################
+# 15. PLEX – Tracking / Telemetrie / Analytics
+############################################################
+analytics.plex.tv
+analytics.plexapp.com
+app.plex.tv
+clients.plex.tv
+clients.plexapp.com
+cpms.spop10.ams.plex.bz
+cpms35.spop10.ams.plex.bz
+directory.plex.direct
+directory.plex.tv
+directory.plexapp.com
+discover.provider.plex.direct
+discover.provider.plex.tv
+events.plexapp.com
+logs.plexapp.com
+meta-db-worker.plex.tv
+meta.plex.bz
+meta.plex.tv
+metrics.plex.tv
+metrics.plexapp.com
+plex.tv
+proxy.plex.bz
+proxy.plex.direct
+proxy.plex.tv
+proxy02.pop.ord.plex.bz
+proxy02.pop.ord.plex.tv
+pubsub.plex.bz
+pubsub.plex.tv
+staging.plex.tv
+staging.plexapp.com
+status.plex.tv
+telemetry.plex.tv
+tvdb2.plex.tv
 
-# illegale Streamingseiten
 
+############################################################
+# 16. RUSSISCHE TRACKING- / SPAM- / MALWARE-DOMAINS
+############################################################
+2ip.ru
+alibaba-inc.com
+bk.ru
+biz.ru
+co.ru
+com.ru
+edu.ru
+gov.ru
+in.ru
+inbox.ru
+info.ru
+internet.ru
+irk.ru
+kazan.ru
+land.ru
+list.ru
+liveinternet.ru
+mail.ru
+mil.ru
+msk.ru
+my.ru
+net.ru
+nov.ru
+ok.ru
+org.ru
+perm.ru
+pp.ru
+rf
+ru
+rambler.ru
+samara.ru
+spb.ru
+su
+tula.ru
+tv.ru
+ucoz.ru
+vladivostok.ru
+vk.com
+vk.ru
+xn--80adxhks
+xn--p1acf
+xn--p1ai
+yandex.net
+yandex.ru
+
+
+############################################################
+# 17. ILLEGALE STREAMINGSEITEN / WAREZ / PIRACY
+############################################################
 annas-archive.gd
 annas-archive.pk
 bs.to
@@ -578,3 +488,4 @@ www8.kinos.to
 www8.kinox.to
 www8.kinoz.to
 www9.kinox.to
+vpn.mozilla.org

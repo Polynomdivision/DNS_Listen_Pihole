@@ -1,276 +1,177 @@
 ############################################################
-# MASTER-BLACKLIST – ERSTELLT VON COPILOT FÜR FRITZ
-# Datum: 08.05.2026 – Mannheim
+# MASTER-ANTI-TELEMETRY-FINGERPRINTING-BLACKLIST – FRITZ
 ############################################################
 
 
-############################################################
-# 1. APPLE-TRACKING (iPhone/iPad ohne Tracking)
-############################################################
-||ads.apple.com^
-||iad.apple.com^
-||metrics.apple.com^
-||analytics.apple.com^
-||telemetry.apple.com^
-||app-measurement.com^
+############################
+# MICROSOFT
+############################
+vortex.data.microsoft.com
+vortex-win.data.microsoft.com
+telemetry.microsoft.com
+telecommand.telemetry.microsoft.com
+oca.telemetry.microsoft.com
+sqm.telemetry.microsoft.com
+watson.telemetry.microsoft.com
+watson.ppe.telemetry.microsoft.com
+browser.events.data.microsoft.com
+self.events.data.microsoft.com
+mobile.pipe.aria.microsoft.com
+feedback.microsoft.com
+
+
+############################
+# GOOGLE
+############################
+google-analytics.com
+ssl.google-analytics.com
+googletagmanager.com
+googletagservices.com
+googlesyndication.com
+doubleclick.net
+adservice.google.com
+adservice.google.de
+pagead2.googlesyndication.com
+tpc.googlesyndication.com
+cm.g.doubleclick.net
+googleads.g.doubleclick.net
+
+
+############################
+# APPLE
+############################
+metrics.apple.com
+metrics.icloud.com
+analytics.apple.com
+iad.apple.com
+ads.apple.com
+app-analytics.services.apple.com
+xp.apple.com
+
+
+############################
+# META (FACEBOOK / INSTAGRAM)
+############################
+facebook.net
+connect.facebook.net
+graph.facebook.com
+graph.instagram.com
+pixel.facebook.com
+events.facebook.com
+ads.facebook.com
+ads.instagram.com
+
+
+############################
+# TIKTOK / BYTEDANCE
+############################
+analytics.tiktok.com
+log.byteoversea.com
+log.tiktokv.com
+mon.byteoversea.com
+tracking-va.tiktokv.com
+
+
+############################
+# AMAZON / PRIME VIDEO / FIRETV
+############################
+amazon-adsystem.com
+aaxads.com
+aax-eu.amazon-adsystem.com
+fls-eu.amazon.com
+device-metrics-us.amazon.com
+device-metrics-eu.amazon.com
+telemetry.amazon.com
+analytics.amazonvideo.com
+log-ingest-global.amazonvideo.com
+avodmp.amazon.com
+
+
+############################
+# NETFLIX
+############################
+metrics.netflix.com
+sentry.io
+bam.nr-data.net
+
+
+############################
+# DISNEY+
+############################
+metrics.bamgrid.com
+analytics.disneyplus.com
+conviva.com
+cws.conviva.com
+
+
+############################
+# WAIPU.TV
+############################
+analytics.waipu.tv
+tracking.waipu.tv
+metrics.waipu.tv
+
+
+############################
+# PLEX
+############################
+metrics.plex.tv
+analytics.plex.tv
+telemetry.plex.tv
+pubsub.plex.bz
+pubsub.plex.tv
+
+
+############################
+# SMART-HOME
+############################
+metrics.hue.com
+analytics.tuya.com
+log.tuyaeu.com
+log.tuyaus.com
+cloudmetrics.tplinkcloud.com
+metrics.nanoleaf.me
+metrics.evehome.com
+metrics.iot.xiaomi.com
+
+
+############################
+# STREAMING-TELEMETRY
+############################
+conviva.com
+cws.conviva.com
+sentry.io
+bam.nr-data.net
+
+
+############################
+# MOBILE APP TRACKING (SDKs)
+############################
+adjust.com
+branch.io
+appsflyer.com
+kochava.com
+singular.net
+segment.io
+mixpanel.com
+amplitude.com
+
+
+############################
+# FINGERPRINTING-NETZWERKE
+############################
+fingerprintjs.com
+fpjs.io
+client-api.arkoselabs.com
+perimeterx.net
+px-cloud.net
+datadome.co
+cloudflareinsights.com
 
 
 ############################################################
-# 2. GOOGLE-TRACKING & WERBUNG
+# ENDE DER MASTERLISTE – FRITZ
 ############################################################
-||doubleclick.net^
-||googlesyndication.com^
-||googletagmanager.com^
-||googletagservices.com^
-||google-analytics.com^
-||adservice.google.com^
-||adservice.google.de^
-||gstaticadssl.l.google.com^
-
-
-############################################################
-# 3. META (FACEBOOK / INSTAGRAM) TRACKING
-############################################################
-||facebook.net^
-||connect.facebook.net^
-||graph.facebook.com^
-||graph.instagram.com^
-||ads.instagram.com^
-||ads.facebook.com^
-
-
-############################################################
-# 4. TIKTOK-TRACKING
-############################################################
-||analytics.tiktok.com^
-||ads.tiktok.com^
-||log.tiktokv.com^
-||tracking.tiktok.com^
-
-
-############################################################
-# 5. AMAZON-TRACKING (Prime Video bleibt unberührt)
-############################################################
-||amazon-adsystem.com^
-||aaxads.com^
-||aax-eu.amazon-adsystem.com^
-||fls-eu.amazon.com^
-
-
-############################################################
-# 6. MICROSOFT-TRACKING
-############################################################
-||bat.bing.com^
-||telemetry.microsoft.com^
-||vortex.data.microsoft.com^
-||settings-win.data.microsoft.com^
-||browser.events.data.microsoft.com^
-
-
-############################################################
-# 7. ALLGEMEINE WERBENETZWERKE
-############################################################
-||adnxs.com^
-||adform.net^
-||criteo.com^
-||criteo.net^
-||taboola.com^
-||outbrain.com^
-||zedo.com^
-||rubiconproject.com^
-||scorecardresearch.com^
-||quantserve.com^
-||doubleverify.com^
-
-
-############################################################
-# 8. TRACKING-CDNs (ohne Streaming-CDNs!)
-############################################################
-||tracking-protection.cdn.mozilla.net^
-||metrics.cdn.mozilla.net^
-||adobedtm.com^
-||demdex.net^
-||omtrdc.net^
-
-
-############################################################
-# 9. MALWARE / SCAM / CRYPTO-MINING
-############################################################
-||coinhive.com^
-||cryptoloot.pro^
-||minero.pw^
-||browsermine.com^
-||best-prize-winner.com^
-||your-virus-is-detected.com^
-||fake-antivirus-alert.com^
-
-
-############################################################
-# 10. IoT-SPYWARE / CHINA-CLOUD-LEAKS
-############################################################
-||tuyaus.com^
-||tuyaus.net^
-||tuyaeu.net^
-||tuyaus.cn^
-||360.cn^
-||baidu.com^
-||umeng.com^
-||alibaba-inc.com^
-
-
-############################################################
-# 11. PORN-ADS / REDIRECT-SPAM (ohne Inhalte zu blockieren)
-############################################################
-||trafficjunky.net^
-||juicyads.com^
-||exoclick.com^
-||popads.net^
-||popcash.net^
-
-
-############################################################
-# 12. VPN-LEAK-BLOCKER (DNS-Leaks verhindern)
-############################################################
-||dnsleaktest.com^$third-party
-||ipleak.net^$third-party
-||browserleaks.com^$third-party
-
-
-############################################################
-# ENDE DER MASTER-BLACKLIST – ERSTELLT VON COPILOT FÜR FRITZ
-############################################################
-
-############################################################
-# PLEX TRACKING / TELEMETRIE / ANALYTICS
-############################################################
-
-||plex.tv^$third-party
-||metrics.plex.tv^
-||analytics.plex.tv^
-||pubsub.plex.bz^
-||pubsub.plex.tv^
-||meta-db-worker.plex.tv^
-||meta.plex.tv^
-||meta.plex.bz^
-||status.plex.tv^
-||telemetry.plex.tv^
-||events.plexapp.com^
-||logs.plexapp.com^
-||metrics.plexapp.com^
-||analytics.plexapp.com^
-||tvdb2.plex.tv^
-||cpms.spop10.ams.plex.bz^
-||cpms35.spop10.ams.plex.bz^
-||proxy.plex.bz^
-||proxy.plex.tv^
-||proxy02.pop.ord.plex.bz^
-||proxy02.pop.ord.plex.tv^
-||proxy.plex.direct^
-||staging.plex.tv^
-||staging.plexapp.com^
-||clients.plex.tv^
-||clients.plexapp.com^
-||discover.provider.plex.tv^
-||discover.provider.plex.direct^
-||directory.plex.tv^
-||directory.plexapp.com^
-||directory.plex.direct^
-||app.plex.tv^$third-party
-||plex.tv/api/v2/user^
-||plex.tv/api/v2/home^
-||plex.tv/api/v2/resources^
-
-
-
-
-# 5.5.2026 22.30 Uhr
-
-# filedownload.lenovo.com
-# ||filedownload.lenovo.com^
-# lenovomm.com
-# ||lenovomm.com^
-# lenovomm.cn
-# ||lenovomm.cn^
-# lenovo.com.cn
-# ||lenovo.com.cn^
-
-! --- Allgemeine Tracking-Netzwerke ---
-||doubleclick.net^
-||googlesyndication.com^
-||googleadservices.com^
-||adnxs.com^
-||adsafeprotected.com^
-||scorecardresearch.com^
-||quantserve.com^
-||criteo.com^
-||criteo.net^
-||taboola.com^
-||outbrain.com^
-||mathtag.com^
-||moatads.com^
-||rubiconproject.com^
-||adform.net^
-||adroll.com^
-||adservice.google.com^
-||adservice.google.de^
-
-! --- Social Tracking ---
-||facebook.com/tr^
-||facebook.net^
-||connect.facebook.net^
-||graph.facebook.com^
-||twitter.com/i/adsct^
-||analytics.tiktok.com^
-||log.pinterest.com^
-
-! --- Amazon / FireTV Tracking ---
-||fls-eu.amazon.com^
-||amazon-adsystem.com^
-||aaxads.com^
-||aax-eu.amazon.com^
-||unagi.amazon.com^$third-party
-
-! --- Apple Tracking & Telemetrie ---
-||metrics.apple.com^
-||metrics.icloud.com^
-||analytics.itunes.apple.com^
-||xp.apple.com^
-
-! --- Microsoft Tracking ---
-||telemetry.microsoft.com^
-||vortex.data.microsoft.com^
-||vortex-win.data.microsoft.com^
-||browser.events.data.microsoft.com^
-||mobile.events.data.microsoft.com^$third-party
-||settings-win.data.microsoft.com^$third-party
-
-! --- Mozilla Tracking ---
-||incoming.telemetry.mozilla.org^
-||telemetry.mozilla.org^
-||metrics.mozilla.com^
-||metrics.mozilla.org^
-
-! --- Synology Tracking ---
-||insight.synology.com^
-||analytics.synology.com^
-
-! --- Plex Tracking ---
-||metrics.plex.tv^
-||analytics.plex.tv^
-
-! --- Fingerprinting Dienste ---
-||fingerprintjs.com^
-||fingerprint.com^
-||ident.me^
-||ipinfo.io^
-||ip-api.com^
-
-! --- Consent / Cookie-Banner Tracking ---
-||privacy-mgmt.com^
-||consentmanager.net^
-||cookielaw.org^
-||quantcast.mgr.consensu.org^
-
 
 ! ============================================================
 ! Blockliste: Russische Domains (RU, SU, RF, IDN, SLDs)
