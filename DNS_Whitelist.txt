@@ -282,3 +282,4 @@ www.island-masters.de
 registry.api.cnn.io
 turnip.cdn.turner.com
 live-media-aka.warnermediacdn.com
+log.tailscale.com
