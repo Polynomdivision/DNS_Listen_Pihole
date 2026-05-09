@@ -1,0 +1,16 @@
+disneyplus.com
+disney.com
+bamgrid.com
+dssott.com
+disney-plus.net
+registerdisney.go.com
+cdn.registerdisney.go.com
+global.edge.bamgrid.com
+disney.demdex.net
+dpm.demdex.net
+geolocation.onetrust.com
+disney-portal.my.onetrust.com
+cws.conviva.com
+bam.nr-data.net
+js-agent.newrelic.com
+adobedtm.com
