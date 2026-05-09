@@ -1,550 +1,356 @@
-############################################################
-# FUNKTIONS-WHITELIST – FRITZ
-# Erlaubt nur das, was Dienste zum Funktionieren brauchen
-############################################################
+@@||login.live.com^
+@@||login.microsoftonline.com^
+@@||account.microsoft.com^
+@@||auth.microsoft.com^
+@@||msftauth.net^
+@@||msftauthimages.net^
+@@||officecdn.microsoft.com^
+@@||officecdn.microsoft.com.edgesuite.net^
+@@||officeclient.microsoft.com^
+@@||onedrive.live.com^
+@@||storage.live.com^
+@@||xboxlive.com^
+@@||xboxservices.com^
+@@||xbox.com^
+@@||assets1.xboxlive.com^
+@@||assets2.xboxlive.com^
 
+@@||accounts.google.com^
+@@||apis.google.com^
+@@||clients3.google.com^
+@@||clients4.google.com^
+@@||clients5.google.com^
+@@||gstatic.com^
+@@||fonts.gstatic.com^
+@@||fonts.googleapis.com^
+@@||www.gstatic.com^
+@@||www.google.com^
+@@||lh3.googleusercontent.com^
 
-############################
-# MICROSOFT (Login, Store, Updates optional)
-############################
-login.live.com
-login.microsoftonline.com
-account.microsoft.com
-auth.microsoft.com
-msftauth.net
-msftauthimages.net
-officecdn.microsoft.com
-officecdn.microsoft.com.edgesuite.net
-officeclient.microsoft.com
-onedrive.live.com
-storage.live.com
-xboxlive.com
-xboxservices.com
-xbox.com
-assets1.xboxlive.com
-assets2.xboxlive.com
+@@||appleid.apple.com^
+@@||icloud.com^
+@@||updates-http.cdn-apple.com^
+@@||init.itunes.apple.com^
+@@||gs.apple.com^
+@@||api-glb-sea.smoot.apple.com^
+@@||configuration.apple.com^
 
+@@||facebook.com^
+@@||instagram.com^
+@@||cdninstagram.com^
+@@||fbcdn.net^
+@@||fbcdn.com^
 
-############################
-# GOOGLE (Login, Captchas, APIs)
-############################
-accounts.google.com
-apis.google.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-gstatic.com
-fonts.gstatic.com
-fonts.googleapis.com
-www.gstatic.com
-www.google.com
-lh3.googleusercontent.com
+@@||tiktokcdn.com^
+@@||tiktokcdn-us.com^
+@@||tiktokv.com^
+@@||byteoversea.com^
+@@||ibytedtos.com^
+@@||ibyteimg.com^
 
+@@||amazon.com^
+@@||primevideo.com^
+@@||media-amazon.com^
+@@||ssl-images-amazon.com^
+@@||amazonaws.com^
+@@||cloudfront.net^
+@@||fireoscaptiveportal.com^
 
-############################
-# APPLE (iCloud, App Store, Gerätefunktion)
-############################
-appleid.apple.com
-icloud.com
-updates-http.cdn-apple.com
-init.itunes.apple.com
-gs.apple.com
-api-glb-sea.smoot.apple.com
-configuration.apple.com
+@@||netflix.com^
+@@||nflxvideo.net^
+@@||nflximg.net^
+@@||nflxext.com^
+@@||nflxso.net^
+@@||nflximg.com^
 
+@@||disneyplus.com^
+@@||bamgrid.com^
+@@||disney.demdex.net^
+@@||dssott.com^
+@@||cdn.registerdisney.go.com^
 
-############################
-# META (Facebook / Instagram Funktion)
-############################
-facebook.com
-instagram.com
-cdninstagram.com
-fbcdn.net
-fbcdn.com
+@@||waipu.tv^
+@@||waipu.com^
+@@||waipu.io^
+@@||waipu-assets.tv^
 
+@@||plex.tv^
+@@||plex.direct^
+@@||plex.bz^
+@@||plexapp.com^
+@@||cpms.spop10.ams.plex.bz^
 
-############################
-# TIKTOK (Videofunktion, CDN)
-############################
-tiktokcdn.com
-tiktokcdn-us.com
-tiktokv.com
-byteoversea.com
-ibytedtos.com
-ibyteimg.com
+@@||akamaihd.net^
+@@||akamai.net^
+@@||edgekey.net^
+@@||edgesuite.net^
+@@||fastly.net^
+@@||cloudflare.net^
+@@||llnwd.net^
 
+@@||pool.ntp.org^
+@@||time.apple.com^
+@@||time.windows.com^
+@@||time.google.com^
+@@||mqtt.googleapis.com^
+@@||api.tplinkcloud.com^
+@@||api.tuyaeu.com^
+@@||api.tuyaus.com^
+@@||api.nanoleaf.me^
 
-############################
-# AMAZON / PRIME VIDEO / FIRETV
-############################
-amazon.com
-primevideo.com
-media-amazon.com
-ssl-images-amazon.com
-amazonaws.com
-cloudfront.net
-fireoscaptiveportal.com
-
-
-############################
-# NETFLIX (Streaming)
-############################
-netflix.com
-nflxvideo.net
-nflximg.net
-nflxext.com
-nflxso.net
-nflximg.com
-
-
-############################
-# DISNEY+ (Streaming)
-############################
-disneyplus.com
-bamgrid.com
-disney.demdex.net
-dssott.com
-cdn.registerdisney.go.com
-
-
-############################
-# WAIPU.TV (Streaming)
-############################
-waipu.tv
-waipu.com
-waipu.io
-waipu-assets.tv
-
-
-############################
-# PLEX (Server & App Funktion)
-############################
-plex.tv
-plex.direct
-plex.bz
-plexapp.com
-cpms.spop10.ams.plex.bz
-
-
-############################
-# STREAMING-CDNs (Allgemein)
-############################
-akamaihd.net
-akamai.net
-edgekey.net
-edgesuite.net
-fastly.net
-cloudflare.net
-llnwd.net
-
-
-############################
-# SMART-HOME (Nur Funktion, kein Tracking)
-############################
-pool.ntp.org
-time.apple.com
-time.windows.com
-time.google.com
-mqtt.googleapis.com
-api.tplinkcloud.com
-api.tuyaeu.com
-api.tuyaus.com
-api.nanoleaf.me
-
-
-############################################################
-# ENDE DER FUNKTIONS-WHITELIST – FRITZ
-############################################################
-
-
-# Sichere DNS / Privacy-Dienste
 @@||dnsforge.de^
 @@||digitale-gesellschaft.ch^
 @@||quad9.net^
 
-# Sichere Mailanbieter
 @@||proton.me^
 @@||protonmail.com^
 @@||tutanota.com^
 
-# Sichere Cloud / Sync
 @@||mega.nz^
 @@||nextcloud.com^
 
-# Sichere VPN-Dienste
 @@||mullvad.net^
 @@||ivpn.net^
 @@||protonvpn.com^
 
-# Sichere Tools
 @@||signal.org^
 @@||session.not^
 @@||threema.ch^
 
-
-############################################################
-# SYSTEM-WHITELIST
-############################################################
-
-############################
-# Betriebssystem-Updates
-############################
-
-# Debian / Linux
 @@||deb.debian.org^
 @@||security.debian.org^
 
-# Apple / macOS / iOS
 @@||apple.com^
-@@||icloud.com^
 @@||ocsp.apple.com^
 @@||gdmf.apple.com^
 @@||captive.apple.com^
 
-# Android / Google
 @@||googleapis.com^
 @@||gvt1.com^
 @@||gvt2.com^
 
-############################
-# NTP / Zeitserver
-############################
-@@||pool.ntp.org^
-@@||time.apple.com^
-@@||time.google.com^
-
-############################
-# DNS / Infrastruktur
-############################
 @@||root-servers.net^
 @@||internic.net^
 @@||arpa^
 
-############################
-# GitHub / Entwicklerdienste
-############################
 @@||github.com^
 @@||raw.githubusercontent.com^
 
-############################
-# Synology
-############################
 @@||synology.com^
 @@||synologyupdate.com^
 @@||synologydownload.com^
 
-############################
-# Firefox Captive Portal
-############################
 @@||detectportal.firefox.com^
 
+@@||gs.apple.com^
+@@||itunes.apple.com^
+@@||apps.apple.com^
+@@||appstoreconnect.apple.com^
+@@||xp.apple.com^
+@@||icloud-content.com^
+@@||setup.icloud.com^
+@@||ckdatabase.icloud.com^
+@@||ckdatabasews.icloud.com^
+@@||courier.push.apple.com^
+@@||push.apple.com^
+@@||idmsa.apple.com^
+
+@@||philips-hue.com^
+@@||meethue.com^
+@@||discovery.meethue.com^
+@@||api.meethue.com^
+@@||ssl.meethue.com^
+@@||philips.com^
+
+@@||tado.com^
+@@||my.tado.com^
+@@||auth.tado.com^
+@@||app.tado.com^
+@@||dc.tado.com^
+
+@@||shelly.cloud^
+@@||shelly-api-eu.shelly.cloud^
+@@||shelly-api.shelly.cloud^
+@@||shelly-support.eu^
+
+@@||homekit.apple.com^
+@@||cloud.hass.io^
+@@||nabu.casa^
+
+@@||nanoleaf.me^
+@@||api.nanoleaf.me^
+
+@@||evehome.com^
+@@||api.evehome.com^
+
+@@||tuya.com^
+@@||eu.tuya.com^
+@@||smartlife.com^
+
+@@||tplinkcloud.com^
+@@||devs.tplinkcloud.com^
+@@||wap.tplinkcloud.com^
+
+@@||ring.com^
+@@||api.ring.com^
+
+@@||reolink.com^
+@@||eu.reolink.com^
+@@||cloud.reolink.com^
+
+@@||bosch-smarthome.com^
+@@||api.bosch-smarthome.com^
+
+@@||nuki.io^
+@@||api.nuki.io^
+
+@@||roborock.com^
+@@||eu.roborock.com^
+@@||api.roborock.com^
+
+@@||live.com^
+@@||gamepass.com^
+@@||playfabapi.com^
+@@||xboxlive.com.edgesuite.net^
+
+@@||playstation.com^
+@@||sonyentertainmentnetwork.com^
+@@||psnprofiles.com^
+@@||api.playstation.com^
+@@||playstation.net^
 
-############################################################
-# ENDE DER MASTER-LISTE – ERSTELLT VON COPILOT FÜR FRITZ
-############################################################
-
-############################################################
-# APPLE – FUNKTIONS-WHITELIST
-############################################################
-
-# Geräte-Aktivierung
-gs.apple.com
-
-# App Store / Updates
-itunes.apple.com
-apps.apple.com
-appstoreconnect.apple.com
-xp.apple.com
-
-# iCloud Kernfunktionen
-icloud.com
-icloud-content.com
-setup.icloud.com
-ckdatabase.icloud.com
-ckdatabasews.icloud.com
-
-# Push Notifications (APNS)
-courier.push.apple.com
-push.apple.com
-
-# Apple-ID Login
-appleid.apple.com
-idmsa.apple.com
-
-# Captive Portal
-captive.apple.com
-
-# Zeitserver
-time.apple.com
-
-# Systemdienste
-gdmf.apple.com
-ocsp.apple.com
-
-
-
-############################################################
-# SMART-HOME – FUNKTIONS-WHITELIST
-############################################################
-
-# Philips Hue
-philips-hue.com
-meethue.com
-discovery.meethue.com
-api.meethue.com
-ssl.meethue.com
-philips.com
-
-# Tado
-tado.com
-my.tado.com
-auth.tado.com
-app.tado.com
-dc.tado.com
-
-# Shelly
-shelly.cloud
-shelly-api-eu.shelly.cloud
-shelly-api.shelly.cloud
-shelly-support.eu
-
-# Apple HomeKit
-homekit.apple.com
-icloud.com
-ckdatabase.icloud.com
-ckdatabasews.icloud.com
-push.apple.com
-courier.push.apple.com
-
-# Home Assistant
-home-assistant.io
-cloud.hass.io
-nabu.casa
-
-# Nanoleaf
-nanoleaf.me
-api.nanoleaf.me
-
-# Eve (HomeKit)
-evehome.com
-api.evehome.com
-
-# Tuya / Smart Life
-tuya.com
-eu.tuya.com
-api.tuyaeu.com
-smartlife.com
-
-# TP-Link / Kasa
-tplinkcloud.com
-devs.tplinkcloud.com
-wap.tplinkcloud.com
-
-# Ring
-ring.com
-api.ring.com
-cloudfront.net
-
-# Reolink
-reolink.com
-eu.reolink.com
-cloud.reolink.com
-
-# Bosch Smart Home
-bosch-smarthome.com
-api.bosch-smarthome.com
-
-# Nuki
-nuki.io
-api.nuki.io
-
-# Roborock
-roborock.com
-eu.roborock.com
-api.roborock.com
-
-
-
-############################################################
-# GAMING – FUNKTIONS-WHITELIST
-############################################################
-
-# Xbox Live
-xboxlive.com
-xbox.com
-live.com
-xboxservices.com
-gamepass.com
-playfabapi.com
-xboxlive.com.edgesuite.net
-
-# PlayStation Network
-playstation.com
-sonyentertainmentnetwork.com
-psnprofiles.com
-api.playstation.com
-playstation.net
-
-# Steam
-steampowered.com
-steamcommunity.com
-steamcontent.com
-steamstatic.com
-steamserver.net
-
-# Epic Games
-epicgames.com
-unrealengine.com
-fortnite.com
-launcher.epicgames.com
-
-# Riot Games
-riotgames.com
-leagueoflegends.com
-valorant.com
-pvp.net
-riotcdn.net
-
-# Blizzard / Battle.net
-battle.net
-blizzard.com
-blzstatic.com
-blz-contentstack.com
+@@||steampowered.com^
+@@||steamcommunity.com^
+@@||steamcontent.com^
+@@||steamstatic.com^
+@@||steamserver.net^
 
-# Ubisoft Connect
-ubisoft.com
-uplay.com
-ubisoftconnect.com
+@@||epicgames.com^
+@@||unrealengine.com^
+@@||fortnite.com^
+@@||launcher.epicgames.com^
 
-# EA / Origin
-ea.com
-origin.com
-easports.com
-cloudsync.ea.com
+@@||riotgames.com^
+@@||leagueoflegends.com^
+@@||valorant.com^
+@@||pvp.net^
+@@||riotcdn.net^
+
+@@||battle.net^
+@@||blizzard.com^
+@@||blzstatic.com^
+@@||blz-contentstack.com^
+
+@@||ubisoft.com^
+@@||uplay.com^
+@@||ubisoftconnect.com^
 
-# Nintendo Switch Online
-nintendo.net
-nintendo.com
-nintendo-europe.com
-nsatc.net
+@@||ea.com^
+@@||origin.com^
+@@||easports.com^
+@@||cloudsync.ea.com^
 
-# Rockstar Social Club
-rockstargames.com
-socialclub.rockstargames.com
-rgl.rockstargames.com
+@@||nintendo.net^
+@@||nintendo.com^
+@@||nintendo-europe.com^
+@@||nsatc.net^
 
-# Discord
-discord.com
-discord.gg
-discordapp.com
-discord.media
+@@||rockstargames.com^
+@@||socialclub.rockstargames.com^
+@@||rgl.rockstargames.com^
 
-
-
-# 5.5.2026 22.30 Uhr
+@@||discord.com^
+@@||discord.gg^
+@@||discordapp.com^
+@@||discord.media^
 
-# Fritz Liste
-
-wpad.fritz.box
-
-detectportal.firefox.com
-prod.detectportal.prod.cloudops.mozgcp.net
-profile.accounts.firefox.com
-api.accounts.firefox.com
-token.services.mozilla.com
-push.services.mozilla.com
-firefox.settings.services.mozilla.com
-
-pool.ntp.org
-time.google.com
-time.cloudflare.com
-time.windows.com
-time.apple.com
-
-www.internic.net
-
-deb.debian.org
-security.debian.org
-fastlydns.net
-
-raw.githubusercontent.com
-github.com
-api.github.com
-
-in-addr.arpa
-ip6.arpa
-
-skidrowreloaded.com
-www.skidrowreloaded.com
-
-freegogpcgames.com
-www.freegogpcgames.com
-
-sabnzbd.org
-www.sabnzbd.org
-
-vpn.mozilla.org
-
-dnsforge.de
-www.dnsforge.de
-
-house-of-usenet.com
-www.house-of-usenet.com
-
-scenenzbs.com
-www.scenenzbs.com
-
-tailscale.com
-www.tailscale.com
-
-proton.me
-www.proton.me
-
-privado.io
-privadovpn.com
-
-eweka.nl
-
-zimaspace.com
-
-mullvad.net
-
-pr0gramm.com
-
-ipv64.de
-ipv64.net
-dns64.de
-
-www.island-masters.de
-island-masters.de
-
-monoprivacy.io
-cdn.cookielaw.org
-registry.api.cnn.io
-api.msn.com
-turnip.cdn.turner.com
-live-media-aka.warnermediacdn.com
-
-instagram.com
-instagram.de
-www.instagram.com
-www.instagram.de
-
-facebook.com
-facebook.de
-www.facebook.com
-www.facebook.de
-
-redditmedia.com
-reddit.com
-redd.it
-www.reddit.com
-www.redd.it
-
-msftconnecttest.com
-www.msftconnecttest.com
-ipv6.msftconnecttest.com
-dns.msftncsi.com
-www.msftncsi.com
-v4ncsi.msedge.net
-v6ncsi.msedge.net
+@@||wpad.fritz.box^
+
+@@||prod.detectportal.prod.cloudops.mozgcp.net^
+@@||profile.accounts.firefox.com^
+@@||api.accounts.firefox.com^
+@@||token.services.mozilla.com^
+@@||push.services.mozilla.com^
+@@||firefox.settings.services.mozilla.com^
+
+@@||time.cloudflare.com^
+
+@@||fastlydns.net^
+
+@@||api.github.com^
+
+@@||in-addr.arpa^
+@@||ip6.arpa^
+
+@@||skidrowreloaded.com^
+@@||www.skidrowreloaded.com^
+
+@@||freegogpcgames.com^
+@@||www.freegogpcgames.com^
+
+@@||sabnzbd.org^
+@@||www.sabnzbd.org^
+
+@@||vpn.mozilla.org^
+
+@@||dnsforge.de^
+@@||www.dnsforge.de^
+
+@@||house-of-usenet.com^
+@@||www.house-of-usenet.com^
+
+@@||scenenzbs.com^
+@@||www.scenenzbs.com^
+
+@@||tailscale.com^
+@@||www.tailscale.com^
+
+@@||proton.me^
+@@||www.proton.me^
+
+@@||privado.io^
+@@||privadovpn.com^
+
+@@||eweka.nl^
+
+@@||zimaspace.com^
+
+@@||mullvad.net^
+
+@@||pr0gramm.com^
+
+@@||ipv64.de^
+@@||ipv64.net^
+@@||dns64.de^
+
+@@||island-masters.de^
+@@||www.island-masters.de^
+
+@@||monoprivacy.io^
+@@||cdn.cookielaw.org^
+@@||registry.api.cnn.io^
+@@||api.msn.com^
+@@||turnip.cdn.turner.com^
+@@||live-media-aka.warnermediacdn.com^
+
+@@||instagram.de^
+@@||www.instagram.com^
+@@||www.instagram.de^
+
+@@||facebook.de^
+@@||www.facebook.com^
+@@||www.facebook.de^
+
+@@||redditmedia.com^
+@@||reddit.com^
+@@||redd.it^
+@@||www.reddit.com^
+@@||www.redd.it^
+
+@@||msftconnecttest.com^
+@@||www.msftconnecttest.com^
+@@||ipv6.msftconnecttest.com^
+@@||dns.msftncsi.com^
+@@||www.msftncsi.com^
+@@||v4ncsi.msedge.net^
+@@||v6ncsi.msedge.net^
