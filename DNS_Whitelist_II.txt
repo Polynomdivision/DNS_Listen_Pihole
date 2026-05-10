@@ -210,3 +210,5 @@ dns.msftncsi.com
 www.msftncsi.com
 v4ncsi.msedge.net
 v6ncsi.msedge.net
+web.facebook.com
+graph.facebook.com

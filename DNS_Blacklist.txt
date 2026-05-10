@@ -275,8 +275,6 @@ ok.ru
 org.ru
 perm.ru
 pp.ru
-rf
-ru
 rambler.ru
 samara.ru
 spb.ru
@@ -287,9 +285,6 @@ ucoz.ru
 vladivostok.ru
 vk.com
 vk.ru
-xn--80adxhks
-xn--p1acf
-xn--p1ai
 yandex.net
 yandex.ru
 
