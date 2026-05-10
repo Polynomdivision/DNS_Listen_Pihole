@@ -278,7 +278,6 @@ pp.ru
 rambler.ru
 samara.ru
 spb.ru
-su
 tula.ru
 tv.ru
 ucoz.ru
