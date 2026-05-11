@@ -305,38 +305,22 @@ doh.opendns.com
 security.cloudflare-dns.com
 family.cloudflare-dns.com
 
-# Fire TV Anti-Telemetry Blocklist (Fritz, 11.05.2026)
-device-messaging-na.amazon.com
-a32doymun6dtxa.us-east-1.prod.service.minerva.devices.a2z.com
-asqzwp4gpyut7.us-east-1.prod.service.minerva.devices.a2z.com
-348b34eb75535a81fcedde08110bec51e4b49692a44ed752161a870b0a84c03.us-east-1.prod.service.minerva.devices.a2z.com
-d8203f0ad53bdb179cca2610a880407f2d09ae31fccda8f194a22287775dc22.us-east-1.prod.service.minerva.devices.a2z.com
+# Fire TV Telemetry & A/B Tests
 com-amazon-firebat.triggers-v1.prod.mobile.weblab.a2z.com
 todo-ta-g7g.amazon.com
-region1.app-measurement.com
-unagi.amazon.com
-unagi-eu.amazon.com
-msh.amazon.co.uk
+
+# Fire TV Werbung
 aax-eu.amazon-adsystem.com
 aax.amazon-adsystem.com
 amazon-adsystem.com
-device-metrics-us.amazon.com
-device-metrics-eu.amazon.com
-dp-discovery-na-ext.amazon.com
-dp-discovery-eu-ext.amazon.com
-appstore-sdk.amazon.com
-appstore-telemetry.amazon.com
-appstore-analytics.amazon.com
-alexa-communications.amazon.com
-alexa-mobile-service.amazon.com
-alexa.eu.amazon.com
+
+# Fire TV CDN Tracking
 fls-na.amazon.com
 fls-eu.amazon.com
 fls-fe.amazon.com
-ad.doubleclick.net
-googleads.g.doubleclick.net
-pagead2.googlesyndication.com
-securepubads.g.doubleclick.net
-adservice.google.com
-adservice.google.de
+
+# Minerva (nur unkritische)
+a1rabvci4qcikc.us-east-1.prod.service.minerva.devices.a2z.com
+asqzwp4gpyut7.us-east-1.prod.service.minerva.devices.a2z.com
+
 

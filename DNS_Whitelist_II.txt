@@ -212,11 +212,32 @@ v4ncsi.msedge.net
 v6ncsi.msedge.net
 web.facebook.com
 graph.facebook.com
-region1.app-measurement.com
-unagi-eu.amazon.com
-unagi.amazon.com
+
+# Plex Core
 plex.tv
-plex.direct
+app.plex.tv
+v4.plex.tv
+meta.plex.tv
 pubsub.plex.tv
+pubsub.plex.bz
+
+# NAT / SSL / Direct
+plex.direct
+
+# Metadata / Artwork
 metadata.provider.plex.tv
+metadata-static.plex.tv
+images.plex.tv
+resources-cdn.plexapp.com
+assets.plex.tv
+downloads.plex.tv
+
+# Analytics / Scrobbling
+analytics.plex.tv
+scrobbles.plex.tv
+
+# CDN / Infrastruktur
 clients.plex.tv
+status.plex.tv
+tvdb2.plex.tv
+
