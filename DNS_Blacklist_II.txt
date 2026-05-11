@@ -466,3 +466,16 @@ www.hausgabriela-rt.de
 ||hausgabriela-rt.de^
 www.liebes-stern.de
 ||liebes-stern.de^
+
+cloudflare-dns.com
+mozilla.cloudflare-dns.com
+1dot1dot1dot1.cloudflare-dns.com
+dns.google
+dns.quad9.net
+dns.nextdns.io
+dns.adguard-dns.com
+family.adguard-dns.com
+dns.opendns.com
+doh.opendns.com
+security.cloudflare-dns.com
+family.cloudflare-dns.com
