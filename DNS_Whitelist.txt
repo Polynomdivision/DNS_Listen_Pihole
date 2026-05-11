@@ -285,3 +285,11 @@ live-media-aka.warnermediacdn.com
 log.tailscale.com
 web.facebook.com
 graph.facebook.com
+region1.app-measurement.com
+unagi-eu.amazon.com
+unagi.amazon.com
+plex.tv
+plex.direct
+pubsub.plex.tv
+metadata.provider.plex.tv
+clients.plex.tv
