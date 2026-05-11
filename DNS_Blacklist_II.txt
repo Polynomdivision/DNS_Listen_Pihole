@@ -1,163 +1,3 @@
-############################################################
-# 1. APPLE – Tracking / Werbung / Telemetrie
-############################################################
-ads.apple.com
-iad.apple.com
-metrics.apple.com
-metrics.icloud.com
-analytics.apple.com
-telemetry.apple.com
-xp.apple.com
-
-
-############################################################
-# 2. GOOGLE – Tracking / Werbung / Analytics
-############################################################
-adservice.google.com
-adservice.google.de
-doubleclick.net
-google-analytics.com
-googleadservices.com
-googlesyndication.com
-googletagmanager.com
-googletagservices.com
-gstaticadssl.l.google.com
-mathtag.com
-moatads.com
-
-
-############################################################
-# 3. META – Facebook / Instagram Tracking
-############################################################
-ads.facebook.com
-ads.instagram.com
-connect.facebook.net
-facebook.com
-facebook.net
-graph.facebook.com
-graph.instagram.com
-
-
-############################################################
-# 4. TIKTOK – Tracking / Analytics
-############################################################
-ads.tiktok.com
-analytics.tiktok.com
-log.tiktokv.com
-tracking.tiktok.com
-
-
-############################################################
-# 5. AMAZON – Tracking (Prime Video bleibt funktionsfähig)
-############################################################
-aax-eu.amazon-adsystem.com
-aaxads.com
-amazon-adsystem.com
-fls-eu.amazon.com
-unagi.amazon.com
-
-
-############################################################
-# 6. MICROSOFT – Telemetrie / Tracking
-############################################################
-bat.bing.com
-browser.events.data.microsoft.com
-mobile.events.data.microsoft.com
-settings-win.data.microsoft.com
-telemetry.microsoft.com
-vortex-win.data.microsoft.com
-vortex.data.microsoft.com
-
-
-############################################################
-# 7. MOZILLA – Telemetrie
-############################################################
-incoming.telemetry.mozilla.org
-metrics.cdn.mozilla.net
-metrics.mozilla.com
-metrics.mozilla.org
-telemetry.mozilla.org
-tracking-protection.cdn.mozilla.net
-
-
-############################################################
-# 8. TRACKING-CDNs (nicht Streaming)
-############################################################
-adobedtm.com
-demdex.net
-omtrdc.net
-
-
-############################################################
-# 9. ALLGEMEINE WERBENETZWERKE
-############################################################
-adform.net
-adnxs.com
-adroll.com
-adsafeprotected.com
-criteo.com
-criteo.net
-doubleverify.com
-outbrain.com
-quantserve.com
-rubiconproject.com
-scorecardresearch.com
-taboola.com
-zedo.com
-
-
-############################################################
-# 10. FINGERPRINTING-DIENSTE
-############################################################
-fingerprint.com
-fingerprintjs.com
-ident.me
-ip-api.com
-ipinfo.io
-
-
-############################################################
-# 11. MALWARE / SCAM / CRYPTO-MINING
-############################################################
-best-prize-winner.com
-browsermine.com
-coinhive.com
-cryptoloot.pro
-fake-antivirus-alert.com
-minero.pw
-your-virus-is-detected.com
-
-
-############################################################
-# 12. IoT-SPYWARE / CHINA-CLOUD-LEAKS
-############################################################
-360.cn
-alibaba-inc.com
-baidu.com
-tuyaeu.net
-tuyaus.cn
-tuyaus.com
-tuyaus.net
-umeng.com
-
-
-############################################################
-# 13. PORN-ADS / REDIRECT-SPAM (keine Inhalte)
-############################################################
-exoclick.com
-juicyads.com
-popads.net
-popcash.net
-trafficjunky.net
-
-
-############################################################
-# 14. VPN-LEAK-BLOCKER
-############################################################
-browserleaks.com
-dnsleaktest.com
-ipleak.net
-
 
 ############################################################
 # 16. RUSSISCHE TRACKING- / SPAM- / MALWARE-DOMAINS
@@ -448,35 +288,23 @@ www9.kinox.to
 
 vpn.mozilla.org
 
-www.amorehaus.de
-||amorehaus.de^
+amorehaus.com
 www.amorehaus.com
-||amorehaus.com^
+amorehaus.de
+www.amorehaus.de
+erospark.de
 www.erospark.de
-||erospark.de^
+geilhaus.de
 www.geilhaus.de
-||geilhaus.de^
-www.muellergirls.de
-||muellergirls.de^
-www.penthouse55.de
-||penthouse55.de^
+haus-jaguar.de
 www.haus-jaguar.de
-||haus-jaguar.de^
+hausgabriela-rt.de
 www.hausgabriela-rt.de
-||hausgabriela-rt.de^
+liebes-stern.de
 www.liebes-stern.de
-||liebes-stern.de^
+# muellergirls.de
+www.muellergirls.de
+penthouse55.de
+www.penthouse55.de
 
-cloudflare-dns.com
-mozilla.cloudflare-dns.com
-1dot1dot1dot1.cloudflare-dns.com
-dns.google
-dns.quad9.net
-dns.nextdns.io
-dns.adguard-dns.com
-family.adguard-dns.com
-dns.opendns.com
-doh.opendns.com
-security.cloudflare-dns.com
-family.cloudflare-dns.com
 

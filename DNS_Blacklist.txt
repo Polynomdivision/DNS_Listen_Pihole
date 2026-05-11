@@ -135,40 +135,6 @@ metrics.evehome.com
 metrics.iot.xiaomi.com
 
 
-############################
-# STREAMING-TELEMETRY
-############################
-conviva.com
-cws.conviva.com
-sentry.io
-bam.nr-data.net
-
-
-############################
-# MOBILE APP TRACKING (SDKs)
-############################
-adjust.com
-branch.io
-appsflyer.com
-kochava.com
-singular.net
-segment.io
-mixpanel.com
-amplitude.com
-
-
-############################
-# FINGERPRINTING-NETZWERKE
-############################
-fingerprintjs.com
-fpjs.io
-client-api.arkoselabs.com
-perimeterx.net
-px-cloud.net
-datadome.co
-cloudflareinsights.com
-
-
 ############################################################
 # ENDE DER MASTERLISTE – FRITZ
 ############################################################
@@ -286,41 +252,5 @@ vk.com
 vk.ru
 yandex.net
 yandex.ru
-
-
-############################################################
-# ENDE DER KOMPLETTEN HARDCORE-LISTE – COPILOT FÜR FRITZ
-############################################################
-
-cloudflare-dns.com
-mozilla.cloudflare-dns.com
-1dot1dot1dot1.cloudflare-dns.com
-dns.google
-dns.quad9.net
-dns.nextdns.io
-dns.adguard-dns.com
-family.adguard-dns.com
-dns.opendns.com
-doh.opendns.com
-security.cloudflare-dns.com
-family.cloudflare-dns.com
-
-# Fire TV Telemetry & A/B Tests
-com-amazon-firebat.triggers-v1.prod.mobile.weblab.a2z.com
-todo-ta-g7g.amazon.com
-
-# Fire TV Werbung
-aax-eu.amazon-adsystem.com
-aax.amazon-adsystem.com
-amazon-adsystem.com
-
-# Fire TV CDN Tracking
-fls-na.amazon.com
-fls-eu.amazon.com
-fls-fe.amazon.com
-
-# Minerva (nur unkritische)
-a1rabvci4qcikc.us-east-1.prod.service.minerva.devices.a2z.com
-asqzwp4gpyut7.us-east-1.prod.service.minerva.devices.a2z.com
 
 
