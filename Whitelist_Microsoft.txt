@@ -67,3 +67,5 @@ azureedge.net
 # ENDE DER MASTERLISTE
 # Erstellt von Copilot für Fritz – Mannheim – 08.05.2026
 ############################################################
+
+g.live.com
