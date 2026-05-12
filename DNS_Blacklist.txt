@@ -52,38 +52,34 @@ xp.apple.com
 ############################
 # META (FACEBOOK / INSTAGRAM)
 ############################
-facebook.net
-connect.facebook.net
+
 graph.facebook.com
-graph.instagram.com
-pixel.facebook.com
-events.facebook.com
+analytics.facebook.com
 ads.facebook.com
-ads.instagram.com
-
-
-############################
-# TIKTOK / BYTEDANCE
-############################
-analytics.tiktok.com
-log.byteoversea.com
-log.tiktokv.com
-mon.byteoversea.com
-tracking-va.tiktokv.com
-
+an.facebook.com
+pixel.facebook.com
+connect.facebook.net
+staticxx.facebook.com
+external.xx.fbcdn.net
+external.fra5-1.fna.fbcdn.net
+mqtt.facebook.com
+edge-mqtt.facebook.com
+rupload.facebook.com
+upload.facebook.com
+ads-api.facebook.com
+business.facebook.com
+analytics-edge.facebook.com
 
 ############################
 # AMAZON / PRIME VIDEO / FIRETV
 ############################
+
 amazon-adsystem.com
 aaxads.com
 aax-eu.amazon-adsystem.com
 fls-eu.amazon.com
-device-metrics-us.amazon.com
-device-metrics-eu.amazon.com
 telemetry.amazon.com
 analytics.amazonvideo.com
-log-ingest-global.amazonvideo.com
 avodmp.amazon.com
 
 
@@ -115,100 +111,21 @@ metrics.waipu.tv
 ############################
 # PLEX
 ############################
+
 metrics.plex.tv
 analytics.plex.tv
 telemetry.plex.tv
-pubsub.plex.bz
-pubsub.plex.tv
-
 
 ############################
 # SMART-HOME
 ############################
-metrics.hue.com
+
 analytics.tuya.com
 log.tuyaeu.com
 log.tuyaus.com
 cloudmetrics.tplinkcloud.com
-metrics.nanoleaf.me
-metrics.evehome.com
 metrics.iot.xiaomi.com
 
-
-############################################################
-# ENDE DER MASTERLISTE – FRITZ
-############################################################
-
-
-############################################################
-# HARDCORE YI + KASA BLOCKLISTE – KOMPLETTE VERSION
-############################################################
-
-# Globale Werbe-CDNs
-googlesyndication.com
-googleads.g.doubleclick.net
-doubleclick.net
-adservice.google.com
-adservice.google.de
-pagead2.googlesyndication.com
-g.doubleclick.net
-securepubads.g.doubleclick.net
-
-# ByteDance / TikTok Ads
-pangle.io
-pangolin-sdk-toutiao.com
-byteoversea.com
-bytedance.com
-sf16-static.i18n-pglstatp.com
-log.byteoversea.com
-
-# China Ad Networks
-umeng.com
-umengcloud.com
-umenglog.com
-cnzz.com
-cnzz.net
-tanx.com
-alimama.com
-mmstat.com
-youku.com
-tudou.com
-
-# Tencent Tracking / Bugly
-bugly.qq.com
-bugly.qcloud.com
-tencentcloudapi.com
-log.tbs.qq.com
-pingma.qq.com
-
-# App-Tracking SDKs
-appsflyer.com
-adjust.com
-branch.io
-kochava.com
-singular.net
-crashlytics.com
-firebaseinstallations.googleapis.com
-firebase-settings.crashlytics.com
-app-measurement.com
-events.appsflyer.com
-config.appsflyer.com
-
-# YI / Kami Tracking
-log.yitechnology.com
-analytics.yitechnology.com
-tracking.yitechnology.com
-ads.yitechnology.com
-ad.yitechnology.com
-stat.yi.com
-
-# TP-Link KASA / Tapo Tracking
-metrics.tplinkcloud.com
-analytics.tplinkcloud.com
-log.tplinkcloud.com
-events.tplinkcloud.com
-promo.tplinkcloud.com
-ads.tplinkcloud.com
 
 ############################################################
 # 16. RUSSISCHE TRACKING- / SPAM- / MALWARE-DOMAINS
