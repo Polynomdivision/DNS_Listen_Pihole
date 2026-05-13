@@ -6,6 +6,10 @@ pr0gramm.com
 ipv64.de
 ipv64.net
 dns64.de
+api.waipu.tv
+auth.waipu.tv
+cdn.waipu.tv
+ad.wpstr.tv
 waipu.tv
 waipu.tv.edgekey.net
 waipu.tv.edgesuite.net

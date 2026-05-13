@@ -15,6 +15,10 @@ bam.nr-data.net
 js-agent.newrelic.com
 adobedtm.com
 waipu.tv
+api.waipu.tv
+auth.waipu.tv
+cdn.waipu.tv
+ad.wpstr.tv
 waipu.tv.edgekey.net
 waipu.tv.edgesuite.net
 waipu.tv.cdn.tv1.eu
